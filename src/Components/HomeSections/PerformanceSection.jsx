@@ -137,7 +137,7 @@ const PerformanceSection = () => {
 
     return (
         <>
-            <div className="bg-[#0c0c0c] min-h-screen md:px-12 pt-10 pb-20" >
+            <div className="bg-[#0c0c0c] min-h-screen md:px-12 pb-20  py-16" >
                 <div className='block md:hidden uppercase text-[#E72427] text-8xl overflow-hidden opacity-[90%] text-center'>
                     <h1 className='text-[#E72427] leading-[80px] '>Perfor<br/>mance<br/>center</h1>
                 </div>

@@ -2,7 +2,6 @@ import gsap from 'gsap'
 import { useGSAP } from '@gsap/react';
 import ScrollTrigger from "gsap/ScrollTrigger";
 import React, { useEffect, useRef } from 'react'
-import Card2Video from '../../Videos/Card2Video.webm'
 import Card3Video from '../../Videos/Card3Video.webm'
 gsap.registerPlugin(ScrollTrigger);
 

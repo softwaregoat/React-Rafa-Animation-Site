@@ -141,6 +141,22 @@ const Home = () => {
 
         }),
 
+
+        
+        gsap.to("#black_nav_bar", {
+            zIndex: 100,
+            // duration: 1.8,
+            scrollTrigger: {
+                scroller: '.container',
+                trigger: ".black-nav-bar",
+                scrub: 1,
+                start: "top 1%",
+                // end: "bottom top",
+            }
+
+        }),
+
+
         gsap.to(".section-04 h2", {
             scrollTrigger: {
                 scroller: ".container",
@@ -202,7 +218,7 @@ const Home = () => {
                     <VideoSection2></VideoSection2>
                 </div>
 
-                <div>
+                <div className='black-nav-bar'>
                     <NavigationBlack/>
                 </div>
 

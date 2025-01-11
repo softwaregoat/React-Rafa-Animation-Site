@@ -143,11 +143,7 @@ const CardSection = () => {
     })
     return (
         <>
-        <div id='CardSection1' className='overflow-hidden overflow-x-hidden'>
-
-            {/* <div>
-                <NavigationBlack/>
-            </div> */}
+        <div id='CardSection1' className='overflow-hidden overflow-x-hidden py-16'>
             {/* CARD 1 */}
             <div className='flex w-[100%] md:mt-8 md:px-10 px-5 card-content'>
                 <div className='flex w-[50%] d-flex left-half md:pr-10'>

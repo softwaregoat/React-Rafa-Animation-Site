@@ -16,7 +16,7 @@ const NavigationBlack = () => {
 
   return (
     <>
-      <div className='bg-transparent w-[100vw] top-0 z-[100] absolute'>
+      <div className='bg-transparent w-[100vw] top-0 z-[-2] absolute' id='black_nav_bar'>
         <nav className='hidden md:flex text-xl py-5 justify-between px-24 text-black'>
             <a href="/"><img src={Logo} alt="Rafa" className='h-[36px]'/></a>
             <a href="/about"><p className='font-Titillium text-[16px]'>About</p></a>
