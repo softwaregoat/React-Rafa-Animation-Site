@@ -17,7 +17,7 @@ import Footer from '../../Components/Footer/Footer.jsx';
 import EarthAnimation from '../../Components/EarthAnimation/EarthAnimation.jsx';
 import HeadPhone from '../../assets/headphones-02.png'
 import Logo from '../../assets/RAFA-Racing-Mark-Wht 2.png'
-import MainVideo from '../../Videos/Video1.webm'
+import MainVideo from '../../Videos/video1.webm'
 
 import NavigationBlack from '../../Components/Navbar/NavigationBlack.jsx';
 
