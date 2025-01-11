@@ -115,7 +115,7 @@ const Section6 = () => {
     })
     return (
         <>
-            <div id='Section6' className='py-[120px] bg-[#0c0c0c] w-[100%] flex items-start  py-16' >
+            <div id='Section6' className=' py-[120px] bg-[#0c0c0c] w-[100%] flex items-start  py-16' >
                 {/* CONTENT  */}
                 <div className='flex flex-col gap- items pt-40 min-[1666px]:pt-60' >
                     <div className='flex md:px-40 px-5 md:py-10'>
