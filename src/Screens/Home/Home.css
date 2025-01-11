@@ -1,0 +1,913 @@
+@import url('https://fonts.googleapis.com/css2?family=Carter+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Carter+One&family=Monoton&display=swap');
+
+@font-face {
+  font-family: firstaid;
+  src: url(../../Font/FirstAidKit.woff);
+}
+
+#root {
+  overflow-x: hidden;
+}
+
+
+h1 {
+  font-family: firstaid;
+}
+h2 {
+  font-family: firstaid;
+}
+
+p{
+  font-family: Titillium Web;
+  font-size: 22px;
+  line-height: 31.9px;
+  font-weight: 400;
+}
+
+
+
+/* EARTH SECTION  */
+/* #BgShade {
+  background: url("../../assets/Ellipse 8.png") no-repeat center center;
+  width: 100%;
+  height: 100%;
+} */
+
+#EarthRotation {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  background: url("../../assets/Earth.png") no-repeat center center;
+  background-size: cover;
+  filter: brightness(0.8);
+  /* aspect-ratio: 1; */
+  height: 85vh;
+  
+}
+
+
+/* MAIN HEADING SECTION */
+.HeroSecHeader {
+  position: relative;
+  margin: auto;
+  height: 1em;
+  color: transparent;
+  font-weight: 400;
+  line-height: 0.9em;
+}
+
+.HeroSecHeader > h1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  pointer-events: none;
+}
+.HeroSecHeader > h1:nth-child(1) {
+  -webkit-mask-image: linear-gradient(black 25%, transparent 25%);
+  mask-image: linear-gradient(black 25%, transparent 25%);
+}
+
+.HeroSecHeader > h1:nth-child(2) {
+  -webkit-mask-image: linear-gradient(transparent 25%, black 25%, black 50%, transparent 50%);
+  mask-image: linear-gradient(transparent 25%, black 25%, black 50%, transparent 50%);
+}
+
+.HeroSecHeader > h1:nth-child(3) {
+  -webkit-mask-image: linear-gradient(transparent 50%, black 50%, black 75%, transparent 75%);
+  mask-image: linear-gradient(transparent 50%, black 50%, black 75%, transparent 75%);
+}
+
+.HeroSecHeader > h1:nth-child(4) {
+  -webkit-mask-image: linear-gradient(transparent 75%, black 75%);
+  mask-image: linear-gradient(transparent 75%, black 75%);
+}
+
+
+/* SCROLLING IMAGE SECTION */
+
+.ScrollImageHead {
+  position: relative;
+  margin: auto;
+  height: 1em;
+  color: transparent;
+  font-weight: 400;
+  line-height: 0.9em;
+}
+
+.ScrollImageHead > h1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  pointer-events: none;
+}
+
+.ScrollImageHead > h1:nth-child(1) {
+  -webkit-mask-image: linear-gradient(black 25%, transparent 25%);
+  mask-image: linear-gradient(black 25%, transparent 25%);
+}
+
+.ScrollImageHead > h1:nth-child(2) {
+  -webkit-mask-image: linear-gradient(transparent 25%, black 25%, black 50%, transparent 50%);
+  mask-image: linear-gradient(transparent 25%, black 25%, black 50%, transparent 50%);
+}
+
+.ScrollImageHead > h1:nth-child(3) {
+  -webkit-mask-image: linear-gradient(transparent 50%, black 50%, black 75%, transparent 75%);
+  mask-image: linear-gradient(transparent 50%, black 50%, black 75%, transparent 75%);
+}
+
+.ScrollImageHead > h1:nth-child(4) {
+  -webkit-mask-image: linear-gradient(transparent 75%, black 75%);
+  mask-image: linear-gradient(transparent 75%, black 75%);
+}
+
+
+/* CARD 2 */
+.ScrollImageHead2 {
+  position: relative;
+  margin: auto;
+  height: 1em;
+  color: transparent;
+  font-weight: 400;
+  line-height: 1em;
+}
+
+.ScrollImageHead2 > h1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  pointer-events: none;
+}
+
+.ScrollImageHead2 > h1:nth-child(1) {
+  -webkit-mask-image: linear-gradient(black 25%, transparent 25%);
+  mask-image: linear-gradient(black 25%, transparent 25%);
+}
+
+.ScrollImageHead2 > h1:nth-child(2) {
+  -webkit-mask-image: linear-gradient(transparent 25%, black 25%, black 50%, transparent 50%);
+  mask-image: linear-gradient(transparent 25%, black 25%, black 50%, transparent 50%);
+}
+
+.ScrollImageHead2 > h1:nth-child(3) {
+  -webkit-mask-image: linear-gradient(transparent 50%, black 50%, black 75%, transparent 75%);
+  mask-image: linear-gradient(transparent 50%, black 50%, black 75%, transparent 75%);
+}
+
+.ScrollImageHead2 > h1:nth-child(4) {
+  -webkit-mask-image: linear-gradient(transparent 75%, black 75%);
+  mask-image: linear-gradient(transparent 75%, black 75%);
+}
+
+/* CARD 3 */
+.ScrollImageHead3 {
+  position: relative;
+  margin: auto;
+  height: 1em;
+  color: transparent;
+  font-weight: 400;
+  line-height: 1em;
+}
+
+.ScrollImageHead3 > h1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  pointer-events: none;
+}
+
+.ScrollImageHead3 > h1:nth-child(1) {
+  -webkit-mask-image: linear-gradient(black 25%, transparent 25%);
+  mask-image: linear-gradient(black 25%, transparent 25%);
+}
+
+.ScrollImageHead3 > h1:nth-child(2) {
+  -webkit-mask-image: linear-gradient(transparent 25%, black 25%, black 50%, transparent 50%);
+  mask-image: linear-gradient(transparent 25%, black 25%, black 50%, transparent 50%);
+}
+
+.ScrollImageHead3 > h1:nth-child(3) {
+  -webkit-mask-image: linear-gradient(transparent 50%, black 50%, black 75%, transparent 75%);
+  mask-image: linear-gradient(transparent 50%, black 50%, black 75%, transparent 75%);
+}
+
+.ScrollImageHead3 > h1:nth-child(4) {
+  -webkit-mask-image: linear-gradient(transparent 75%, black 75%);
+  mask-image: linear-gradient(transparent 75%, black 75%);
+}
+
+
+
+
+
+
+
+/* SECTION 4 CARD HEADING SECTION */
+
+.Sec4CardHeading {
+  position: relative;
+  margin: auto;
+  height: 1em;
+  color: transparent;
+  font-weight: 400;
+  line-height: 1em;
+}
+
+.Sec4CardHeading > h1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  /* color: #E72427; */
+  pointer-events: none;
+}
+
+.Sec4CardHeading > h1:nth-child(1) {
+  -webkit-mask-image: linear-gradient(black 25%, transparent 25%);
+  mask-image: linear-gradient(black 25%, transparent 25%);
+}
+
+.Sec4CardHeading > h1:nth-child(2) {
+  -webkit-mask-image: linear-gradient(transparent 25%, black 25%, black 50%, transparent 50%);
+  mask-image: linear-gradient(transparent 25%, black 25%, black 50%, transparent 50%);
+}
+
+.Sec4CardHeading > h1:nth-child(3) {
+  -webkit-mask-image: linear-gradient(transparent 50%, black 50%, black 75%, transparent 75%);
+  mask-image: linear-gradient(transparent 50%, black 50%, black 75%, transparent 75%);
+}
+
+.Sec4CardHeading > h1:nth-child(4) {
+  -webkit-mask-image: linear-gradient(transparent 75%, black 75%);
+  mask-image: linear-gradient(transparent 75%, black 75%);
+}
+
+
+
+
+
+
+/* SECTION 5 PERFORMANCE CENTER  */
+.PerformaneCenter {
+  position: relative;
+  margin: auto;
+  height: -1.29em;
+  color: transparent;
+  font-weight: 400;
+  line-height: 125px;
+}
+
+
+
+.PerformaneCenter > h1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  /* color: #E72427; */
+  pointer-events: none;
+  font-size: 150px;
+}
+
+.PerformaneCenter > h1:nth-child(1) {
+  -webkit-mask-image: linear-gradient(black 25%, transparent 25%);
+  mask-image: linear-gradient(black 25%, transparent 25%);
+}
+
+.PerformaneCenter > h1:nth-child(2) {
+  -webkit-mask-image: linear-gradient(transparent 25%, black 25%, black 50%, transparent 50%);
+  mask-image: linear-gradient(transparent 25%, black 25%, black 50%, transparent 50%);
+}
+
+.PerformaneCenter > h1:nth-child(3) {
+  -webkit-mask-image: linear-gradient(transparent 50%, black 50%, black 75%, transparent 75%);
+  mask-image: linear-gradient(transparent 50%, black 50%, black 75%, transparent 75%);
+}
+
+.PerformaneCenter > h1:nth-child(4) {
+  -webkit-mask-image: linear-gradient(transparent 75%, black 75%);
+  mask-image: linear-gradient(transparent 75%, black 75%);
+}
+
+
+
+/* SECTION 6 GLOBAL CLUB HOUSE  */
+.ClubHouse {
+  position: relative;
+  margin: auto;
+  height: -1.29em;
+  color: transparent;
+  font-weight: 400;
+  line-height: 1em;
+}
+
+.ClubHouse > h1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  /* color: #E72427; */
+  pointer-events: none;
+}
+
+.ClubHouse > h1:nth-child(1) {
+  -webkit-mask-image: linear-gradient(black 25%, transparent 25%);
+  mask-image: linear-gradient(black 25%, transparent 25%);
+}
+
+.ClubHouse > h1:nth-child(2) {
+  -webkit-mask-image: linear-gradient(transparent 25%, black 25%, black 50%, transparent 50%);
+  mask-image: linear-gradient(transparent 25%, black 25%, black 50%, transparent 50%);
+}
+
+.ClubHouse > h1:nth-child(3) {
+  -webkit-mask-image: linear-gradient(transparent 50%, black 50%, black 75%, transparent 75%);
+  mask-image: linear-gradient(transparent 50%, black 50%, black 75%, transparent 75%);
+}
+
+.ClubHouse > h1:nth-child(4) {
+  -webkit-mask-image: linear-gradient(transparent 75%, black 75%);
+  mask-image: linear-gradient(transparent 75%, black 75%);
+}
+
+/* FOOTER JOIN US  */
+.JoinUs {
+  position: relative;
+  margin: auto;
+  height: -1.29em;
+  color: transparent;
+  font-weight: 400;
+  line-height: 1em;
+}
+
+.JoinUs > h1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  /* color: #E72427; */
+  pointer-events: none;
+}
+
+.JoinUs > h1:nth-child(1) {
+  -webkit-mask-image: linear-gradient(black 25%, transparent 25%);
+  mask-image: linear-gradient(black 25%, transparent 25%);
+}
+
+.JoinUs > h1:nth-child(2) {
+  -webkit-mask-image: linear-gradient(transparent 25%, black 25%, black 50%, transparent 50%);
+  mask-image: linear-gradient(transparent 25%, black 25%, black 50%, transparent 50%);
+}
+
+.JoinUs > h1:nth-child(3) {
+  -webkit-mask-image: linear-gradient(transparent 50%, black 50%, black 75%, transparent 75%);
+  mask-image: linear-gradient(transparent 50%, black 50%, black 75%, transparent 75%);
+}
+
+.JoinUs > h1:nth-child(4) {
+  -webkit-mask-image: linear-gradient(transparent 75%, black 75%);
+  mask-image: linear-gradient(transparent 75%, black 75%);
+}
+
+
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; 
+}
+
+body {
+  width: 100%;
+  height: 100%;
+  /* overflow: hidden; */
+}
+
+h2 {
+  font-size: 3.5rem;
+  color: white;
+  text-transform: uppercase;
+  margin: 0; 
+}
+
+
+.container {
+  scroll-behavior: smooth;
+  overflow-y: scroll;
+  height: 100vh;
+  scroll-snap-type: y mandatory;
+  max-width: 100%;
+}
+
+#main1{
+  background-color: transparent!important;
+}
+
+#top-hero{
+  background-color: #e72427 !important;
+}
+section{
+  scroll-snap-align: start;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+
+
+
+.section1{
+  height: 100vh;
+  width: 100%; 
+  scroll-snap-align: start;
+  overflow-y: hidden;
+  background-color: #e72427 !important;
+}
+@media (min-width: 1360px){
+  .section1{
+    /* height: 167vh; */
+    width: 100%; 
+    scroll-snap-align: start;
+    overflow-y: hidden;
+    background-color: #e72427 !important;
+  }
+}
+@media (min-width: 1440px){
+  .section1{
+    /* height: 165vh; */
+    width: 100%; 
+    scroll-snap-align: start;
+    overflow-y: hidden;
+    background-color: #e72427 !important;
+  }
+}
+
+@media (min-width: 1666px){
+  .section1{
+    /* height: 160vh; */
+    width: 100%; 
+    scroll-snap-align: start;
+    overflow-y: hidden;
+    background-color: #e72427 !important;
+  }
+}
+
+.section-06 > div, .section-07 > div, .section-08 > div{
+  background-color: #0c0c0c!important;
+  height: 100vh;
+}
+
+.section7{
+  height: 100vh;
+  overflow-x: hidden;
+  width: 100%; 
+  scroll-snap-align: start;
+  overflow-y: hidden;
+}
+.section8{
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  height: 100vh;
+  overflow-x: hidden;
+  width: 100%; 
+  scroll-snap-align: start;
+  overflow-y: hidden;
+}
+
+.section {
+  height: 100vh;
+  scroll-snap-align: start;
+  width: 100%; 
+  display: flex;
+}
+
+.section > div{
+  z-index: 1;
+  background-color: white;
+}
+
+.video-container {
+
+  position: fixed;
+
+  top: 0;
+
+  left: 0;
+
+  width: 100vw;
+
+  height: 100vh;
+
+  z-index: 0; /* Ensure video stays behind other content */
+
+}
+
+#background-video{
+  max-width: unset!important;
+
+  object-fit: cover;
+
+  background-attachment: fixed; 
+}
+.section-01 {
+  position: relative;
+  overflow: hidden;
+}
+.section-01-overlay{
+  width: 100%;
+  position: absolute;
+  z-index: 1;
+  height: 100vh;
+}
+
+.side-bar, .middle-bar, .bottom-bar{
+  background-color: #e72427;
+}
+.side-bar{
+  top:0;
+  height: 200vh;
+}
+
+.side-bar.right{
+  right: 0;
+}
+
+
+.middle-bar{
+  width: 100vw;
+}
+
+.bottom-bar{
+  bottom: 0;
+}
+
+
+.section-02 {
+  background-color: white;
+}
+
+.section-03 {
+  background-color: white;
+}
+
+.section-05 > div{
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+}
+.section-05 #exclusive{
+  height: fit-content;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.section-06 > div, .section-07{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.right-video-overlay{
+  width: 100%;
+  height: 100%;
+  top:0;
+  position: absolute;
+  background-color: white;
+}
+
+.mobile{
+  display: none;
+}
+
+.left-half{
+  align-items: flex-end;
+}
+
+#exclusive button{
+  width: 300px;
+}
+
+.marque-top{
+  position: absolute;
+  height: 100px;
+  background: linear-gradient(to bottom, rgba(255, 255, 255, 0), rgba(255, 255, 255, 1));
+  width: 100%;
+  top: 0;
+}
+
+.right-half{
+  overflow: hidden;
+}
+
+.right-half video{
+   max-width: unset;
+}
+
+#CardZoomUp{
+  flex-direction: column;
+}
+#ZoomUpImage{
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+#ZoomUpEarth{
+  overflow: hidden;
+  width: 85vh;
+  height: 85vh;
+}
+.right-half.performance{
+  align-items: flex-end;
+}
+
+.right-half.performance video{
+  max-width: 100%;
+}
+.section7.section-07 > div{
+  align-items: center;
+}
+
+@media (max-width: 768px){
+  .col{
+    width: 27vw!important;
+  }
+  .performance-hero{
+    background: unset!important;
+    background-color: #e72427 !important;
+  }
+
+  .contact-page .left-section{
+    background: url(/src/assets/contact-bg.png) no-repeat center center;
+    background-size: contain;
+    /* height: 100%; */
+    width: 100%;
+    background-color: #e72427;
+  }
+  .desktop{
+    display: none;
+  }
+  .mobile{
+    display: block;
+  }
+
+  #logo-top-bar, #heading-1{
+    display: none;
+  }
+  .section.section-logos {
+    display: none!important;
+  }
+
+  .sub-content p,
+  .sub-content button,
+  .left-half, .right-half
+  {
+    width: 100%;
+  }
+
+  #top-hero{
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+
+  .section, .card-content, #CardSection2, #CardSection3{
+    flex-direction: column;
+    height: 100vh;
+  }
+  .unparalleled{
+    align-items: center;
+  }
+
+  .left-half > div{
+    border: unset;
+    width: 100%;
+  } 
+
+  .ScrollImageHead{
+    line-height:1;
+  }
+
+  #exclusive{
+    align-items: center;
+    flex-direction: column;
+  }
+
+  #exclusive .text-5xl{
+    font-size: 2rem;
+  }
+  .section.section-05{
+    height: auto;
+  }
+  .marquee-card{
+    padding-bottom: 50px;
+  }
+
+  .marquee-card button{
+    margin-left:0;
+  }
+  .section-06 > div{
+    /* justify-content: space-between;
+    padding: unset; */
+  }
+
+  .right-half.performance{
+    flex-direction: column;
+  }
+
+  .right-half.performance .video-span{
+    background-color: transparent;
+  }
+
+
+}
+html{
+  overflow: hidden;
+}
+
+/* .train-1-2{
+  background: url("../../assets/train-1-2.png") no-repeat center center;
+  background-size: cover;
+  background-position: top right;
+} */
+
+.train-2-1{
+  background: url("../../assets/train-2-1.png") no-repeat center center;
+  background-size: cover;
+  background-position: bottom left;
+}
+
+.baseline-1-2{
+  background: url("../../assets/baseline-1-2.png") no-repeat center center;
+  background-size: cover;
+  background-position: top right;
+}
+
+.about-hero-gif{
+  background: url("../../assets/about-hero.gif") no-repeat;
+  background-size: cover;
+  background-position: bottom left;
+}
+
+
+
+.performance-hero .PerformaneCenter.first-line{
+  margin-bottom: -75px;
+}
+.performance-hero .PerformaneCenter.last-line{
+  margin-top: -75px;
+}
+.performance-hero .PerformaneCenter h1{
+  font-size: 80px;
+}
+.performance-hero{
+  background: url("../../assets/perfromance.gif") no-repeat center center;
+  background-size: cover;
+}
+/* Amenities */
+.amenities-page .right-half.performance{
+  align-items: flex-start;
+}
+.PerformaneCenter{
+  line-height: 140px;
+}
+.amenities-page h2{
+  text-transform: unset;
+}
+
+.contact-page .left-section .overlay{
+  background: url("../../assets/contact-bg.png") no-repeat center center;
+  background-size: contain;
+  height: 80%;
+  width: 50%;
+}
+
+.social-club-mobile-bg{
+  background: url("../../assets/social-club-mobile.png") no-repeat center center;
+  background-size: cover;
+  align-items: flex-end;
+}
+
+.social-club{
+  background: url("../../assets/social-club.png") no-repeat center center;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+  align-items: flex-end;
+
+}
+
+.amenities-hero-gif{
+  background: url("../../assets/amenities-hero.gif") no-repeat center center;
+  height: 100%;
+  width: 100%;
+  max-width: 930px;
+  aspect-ratio: 930 / 524;
+}
+
+.ultimate-escape{
+  z-index: 1;
+}
+
+.amenities-hero{
+  justify-content: space-between;
+  align-items: stretch;
+  flex-direction: column;
+}
+
+/* About */
+
+.racing-team{
+  display: block;
+}
+
+swiper-container {
+  width: 100vw;
+  height: 100vh;
+}
+
+swiper-slide {
+ width: 100%;
+ height: 100%;
+}
+
+swiper-slide img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.about-hero{
+  justify-content: space-between;
+  align-items: stretch;
+  flex-direction: column;
+}
+
+h1{
+  line-height: 0.8;
+}
+.family-text{
+  align-items: end;
+}
+
+div
+
+.about-hero .middle-div{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: center;
+}
+
+.about-hero .last-div{
+  display: flex;
+  align-items: flex-end;
+}
+.col{
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  width: 15vw;
+  text-align: center;
+  justify-content: center;
+  display: flex;
+  align-content: center;
+  align-items: center;
+  padding: 25px;
+}
+
+.first-row .col{
+  border-top: unset;
+}
+
+.last-row .col{
+  border-bottom: unset;
+}
+
+.col.first-col{
+  border-left: unset;
+}
+
+.col.last-col{
+  border-right: unset;
+}
+
+.our-partners-right{
+  flex-direction: column;
+  justify-content: center;
+}
