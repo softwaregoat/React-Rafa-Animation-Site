@@ -6,7 +6,7 @@ GSAP animation in react
 3. visite http://localhost:5173/
 
 #tip
-If you wanna publush it on netlify, just follow the steps.
+If you wanna publush it manually on netlify, just follow the steps.
 1. npm run build
 2. copy _redirects file to dist foloder.
 3. upload dist foloder on netifly deploy directly.

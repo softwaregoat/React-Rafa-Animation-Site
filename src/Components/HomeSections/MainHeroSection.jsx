@@ -207,7 +207,7 @@ const MainHeroSection = () => {
                     {/* Text and Button Section */}
                     <div className="sub-content min-[1199px]:w-[100%] min-[1280px]:w-[75%] flex flex-col gap-5 justify-start overflow-hidden">
                         <p ref={MainParaGraph} className="font-Titillium text-white w-[45%] min-[1199px]:text-[13px] min-[1360px]:text-[14px] text-[14px] font-light min-[1666px]:text-[15px]">
-                            Welcome to the ultimate luxury racing club. Build community with likeminded people,
+                            Welcom123e to the ultimate luxury racing club. Build community with likeminded people,
                             enjoy exclusive amenities, and get involved in racing-without any of the logistical headaches.
                         </p>
                         <button id='ButtonFadeLeft' className="uppercase font-Titillium font-bold text-[12px] tracking-[2px] text-[#E72427]  bg-gradient-to-r from-[#ffff] to-[#FFB3B4] w-[45%] py-2 rounded-3xl min-[1666px]:text-[13px] min-[1666px]:py-3">
