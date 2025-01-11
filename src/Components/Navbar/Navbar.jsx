@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import logo_anim from '../../videos/Rafa Racing Club.webm';
+import logo_anim from '../../Videos/Rafa Racing Club.webm';
 import Logo from '../../assets/RAFA-Racing-Mark-Wht 2.png'
 import { useRef } from 'react';
 
