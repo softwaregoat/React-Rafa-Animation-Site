@@ -4,7 +4,7 @@ import React, { useEffect, useRef, useState } from 'react';
 import ScrollTrigger from "gsap/ScrollTrigger";
 gsap.registerPlugin(ScrollTrigger);
 // VIDEOS
-import MainVideo from '../../Videos/Video1.webm'
+
 // IMAGES
 import HeadPhone from '../../assets/headphones-02.png'
 import Logo from '../../assets/RAFA-Racing-Mark-Wht 2.png'
