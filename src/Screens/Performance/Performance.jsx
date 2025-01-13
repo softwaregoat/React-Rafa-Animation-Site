@@ -56,7 +56,7 @@ const Performance = () => {
                             </button>
 
                             
-                            <div className={show?'w-full md:block md:w-auto bg-[#e72427] z-[20]': 'hidden'} id="navbar-default" >
+                            <div className={show?'w-full md:block md:w-auto bg-[#ba2427] z-[20]': 'hidden'} id="navbar-default" >
                                 <ul className="font-medium flex flex-col p-4 md:p-0 mt-4 rounded-lg md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0  text-[30px]">
                                     <li>
                                     <a href="/about" className="block py-2 px-3 text-white font-Titillium" aria-current="page">About</a>
@@ -90,32 +90,32 @@ const Performance = () => {
 
                     <div id='TEXTSTART' className='w-[100%] z-10 relative md:opacity-[80%] hidden md:block'>
                         {/* HEADING */}
-                        <span className='uppercase text-[#E72427] leading-[60px] text-[105px] font-medium overflow-hidden min-[1666px]:text-[120px]'>
+                        <span className='uppercase text-[#ba2427] leading-[60px] text-[105px] font-medium overflow-hidden min-[1666px]:text-[120px]'>
                             <div className="PerformaneCenter first-line">
                                 An F1-level
-                                <h1 className='text-[#E72427]'>An F1-level</h1>
-                                <h1 className='text-[#E72427]'>An F1-level</h1>
-                                <h1 className='text-[#E72427]'>An F1-level</h1>
-                                <h1 className='text-[#E72427]'>An F1-level</h1>
+                                <h1 className='text-[#ba2427]'>An F1-level</h1>
+                                <h1 className='text-[#ba2427]'>An F1-level</h1>
+                                <h1 className='text-[#ba2427]'>An F1-level</h1>
+                                <h1 className='text-[#ba2427]'>An F1-level</h1>
                             </div>
                         </span>
-                        <span className='text-[#E72427] z-50 text-[105px] font-light uppercase overflow-hidden'>
+                        <span className='text-[#ba2427] z-50 text-[105px] font-light uppercase overflow-hidden'>
                             <div className="PerformaneCenter">
                                 Performance center
-                                <h1 className='text-[#E72427]'>Performance center</h1>
-                                <h1 className='text-[#E72427]'>Performance center</h1>
-                                <h1 className='text-[#E72427]'>Performance center</h1>
-                                <h1 className='text-[#E72427]'>Performance center</h1>
+                                <h1 className='text-[#ba2427]'>Performance center</h1>
+                                <h1 className='text-[#ba2427]'>Performance center</h1>
+                                <h1 className='text-[#ba2427]'>Performance center</h1>
+                                <h1 className='text-[#ba2427]'>Performance center</h1>
                             </div>
                         </span>
 
-                        <span className='text-[#E72427] z-50 text-[80px] font-light uppercase overflow-hidden'>
+                        <span className='text-[#ba2427] z-50 text-[80px] font-light uppercase overflow-hidden'>
                             <div className="PerformaneCenter last-line">
                                 at your fingertips
-                                <h1 className='text-[#E72427]'>at your fingertips</h1>
-                                <h1 className='text-[#E72427]'>at your fingertips</h1>
-                                <h1 className='text-[#E72427]'>at your fingertips</h1>
-                                <h1 className='text-[#E72427]'>at your fingertips</h1>
+                                <h1 className='text-[#ba2427]'>at your fingertips</h1>
+                                <h1 className='text-[#ba2427]'>at your fingertips</h1>
+                                <h1 className='text-[#ba2427]'>at your fingertips</h1>
+                                <h1 className='text-[#ba2427]'>at your fingertips</h1>
                             </div>
                         </span>
                     </div>
@@ -147,8 +147,8 @@ const Performance = () => {
                     <div className='p-5 flex h-[35vh] border'>
                         <div className='flex our-partners-right '>
 
-                            <span className="text-[#E72427] text-4xl font-semibold min-[1666px]:text-7xl">
-                                <h1 className="text-[#E72427]">Exclusive, Personalized Programs</h1>
+                            <span className="text-[#ba2427] text-4xl font-semibold min-[1666px]:text-7xl">
+                                <h1 className="text-[#ba2427]">Exclusive, Personalized Programs</h1>
                             </span>
 
                             <p className='py-5 pr-24 text-xl'>Dedicated vetted physios in our network for pro/pro-am racing, track days & general wellness</p>
@@ -189,8 +189,8 @@ const Performance = () => {
 
                             <div className='flex our-partners-right '>
 
-                                <span className="text-[#E72427] text-4xl font-semibold min-[1666px]:text-7xl">
-                                    <h1 className="text-[#E72427]">Exclusive,<br/>Personalized Programs</h1>
+                                <span className="text-[#ba2427] text-4xl font-semibold min-[1666px]:text-7xl">
+                                    <h1 className="text-[#ba2427]">Exclusive,<br/>Personalized Programs</h1>
                                 </span>
 
                                 <p className='py-5 pr-24'>Dedicated vetted physios in our network for pro/pro-am racing, track days & general wellness</p>
@@ -222,18 +222,18 @@ const Performance = () => {
 
                     <div className='p-5 flex border h-[35vh]'>
                         <div className='flex our-partners-right '>
-                            <span className="text-[#E72427] text-4xl font-semibold min-[1666px]:text-7xl">
-                                <h1 className="text-[#E72427]">Recovery and Treatment Area</h1>
+                            <span className="text-[#ba2427] text-4xl font-semibold min-[1666px]:text-7xl">
+                                <h1 className="text-[#ba2427]">Recovery and Treatment Area</h1>
                             </span>
                             <p className='py-5 pr-24 text-xl'>With infrared sauna, cold and hot plunge baths</p>
                         </div>
                     </div>
 
                     {/* <div className='flex our-partners-right items-center'>
-                            <span className="text-[#E72427] text-6xl font-semibold min-[1666px]:text-7xl">
-                                <h1 className="text-[#E72427]">WANT TO TRAIN<br/> LIKE THE PROS?</h1>
+                            <span className="text-[#ba2427] text-6xl font-semibold min-[1666px]:text-7xl">
+                                <h1 className="text-[#ba2427]">WANT TO TRAIN<br/> LIKE THE PROS?</h1>
                             </span>
-                            <button className="font-Titillium uppercase tracking-[1px] text-[13px] font-semibold  bg-gradient-to-r from-[#811416] to-[#E72427] text-white rounded-3xl px-6 py-[15px] w-[400px] mt-10">Explore the Performance Center</button>
+                            <button className="font-Titillium uppercase tracking-[1px] text-[13px] font-semibold  bg-gradient-to-r from-[#811416] to-[#ba2427] text-white rounded-3xl px-6 py-[15px] w-[400px] mt-10">Explore the Performance Center</button>
                     </div> */}
                 </div>
 
@@ -241,8 +241,8 @@ const Performance = () => {
                     <div className='w-[40%] h-[100vh]'>
                         <div className='train-1-1 h-[50vh] flex pl-24'>
                             <div className='flex our-partners-right '>
-                                <span className="text-[#E72427] text-4xl font-semibold min-[1666px]:text-7xl">
-                                    <h1 className="text-[#E72427]">Recovery and<br/> Treatment Area</h1>
+                                <span className="text-[#ba2427] text-4xl font-semibold min-[1666px]:text-7xl">
+                                    <h1 className="text-[#ba2427]">Recovery and<br/> Treatment Area</h1>
                                 </span>
                                 <p className='py-5 pr-24'>With infrared sauna, cold and<br/> hot plunge baths</p>
                             </div>
@@ -258,8 +258,8 @@ const Performance = () => {
 
                         <div className='train-2-1 h-[50vh] flex pl-24'>
                             <div className='flex our-partners-right pl-24'>
-                                <span className="text-[#E72427] text-4xl font-semibold min-[1666px]:text-7xl">
-                                    <h1 className="text-[#E72427]">Pro-level<br/> Personal Training</h1>
+                                <span className="text-[#ba2427] text-4xl font-semibold min-[1666px]:text-7xl">
+                                    <h1 className="text-[#ba2427]">Pro-level<br/> Personal Training</h1>
                                 </span>
                                 <p className='py-5 pr-24 text-white'>Physios, nutritionists, chiropractors/<br/> posture doctors & more</p>
                             </div>
@@ -267,10 +267,10 @@ const Performance = () => {
 
                         <div className='train-2-2 h-[50vh] flex pl-24'>
                             <div className='flex our-partners-right items-center'>
-                                <span className="text-[#E72427] text-6xl font-semibold min-[1666px]:text-7xl">
-                                    <h1 className="text-[#E72427]">WANT TO TRAIN<br/> LIKE THE PROS?</h1>
+                                <span className="text-[#ba2427] text-6xl font-semibold min-[1666px]:text-7xl">
+                                    <h1 className="text-[#ba2427]">WANT TO TRAIN<br/> LIKE THE PROS?</h1>
                                 </span>
-                                <button className="font-Titillium uppercase tracking-[1px] text-[13px] font-semibold  bg-gradient-to-r from-[#811416] to-[#E72427] text-white rounded-3xl px-6 py-[15px] w-[400px] mt-10">Explore the Performance Center</button>
+                                <button className="font-Titillium uppercase tracking-[1px] text-[13px] font-semibold  bg-gradient-to-r from-[#811416] to-[#ba2427] text-white rounded-3xl px-6 py-[15px] w-[400px] mt-10">Explore the Performance Center</button>
                             </div>
 
                         </div>

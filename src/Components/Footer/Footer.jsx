@@ -86,14 +86,14 @@ const Footer = () => {
                                 <h1 className='text-white'>  JOIN US</h1>
                             </div>
                         </div>
-                        <button className='hidden md:block font-Titillium uppercase tracking-[1px] text-[12px] font-semibold  bg-gradient-to-r from-[#811416] to-[#E72427] text-white rounded-3xl px-8 py-3'>Apply for membership</button>
+                        <button className='hidden md:block font-Titillium uppercase tracking-[1px] text-[12px] font-semibold  bg-gradient-to-r from-[#811416] to-[#ba2427] text-white rounded-3xl px-8 py-3'>Apply for membership</button>
                     </div>
                     <div className='md:w-[60%] pt-10 md:pt-0'>
                         <img className='' src={FooterImage} alt="" />
                     </div>
 
                     <div className='block md:hidden flex flex-col gap-5 overflow-hidden p-20'>
-                        <button className='font-Titillium uppercase tracking-[1px] text-[12px] font-semibold  bg-gradient-to-r from-[#811416] to-[#E72427] text-white rounded-3xl px-8 py-3'>Apply for membership</button>
+                        <button className='font-Titillium uppercase tracking-[1px] text-[12px] font-semibold  bg-gradient-to-r from-[#811416] to-[#ba2427] text-white rounded-3xl px-8 py-3'>Apply for membership</button>
                     </div>
 
                 </div>

@@ -86,7 +86,7 @@ const About = () => {
     return (
         <>
         <div className='about-page container overflow-x-hidden'>
-            <section className='about-hero bg-[#e72427] '>
+            <section className='about-hero bg-[#ba2427] '>
                 <MainNavigation />
                 <div className='md:flex md:px-10 px-5 mt-[70px] h-[90%]'>
 
@@ -187,7 +187,7 @@ const About = () => {
                                         <p>One club. One team. One family. The RAFA Racing Team has already made a name for themselves as a team to watch, with x wins and x podiums over the last two seasons. And they show no signs of stopping.</p>
                                     </div>
 
-                                    <button class="w-full md:w-[280px] font-Titillium uppercase text-[14px] font-semibold  bg-gradient-to-r from-[#811416] to-[#E72427] text-white rounded-3xl px-[50px] py-[10px] h-fit my-5">Explore Rafa Racing Team</button>
+                                    <button class="w-full md:w-[280px] font-Titillium uppercase text-[14px] font-semibold  bg-gradient-to-r from-[#811416] to-[#ba2427] text-white rounded-3xl px-[50px] py-[10px] h-fit my-5">Explore Rafa Racing Team</button>
                                 </div>
 
                                 <div className='relative hidden md:block'>
@@ -211,7 +211,7 @@ const About = () => {
                                         <p>One club. One team. One family. The RAFA Racing Team has already made a name for themselves as a team to watch, with x wins and x podiums over the last two seasons. And they show no signs of stopping.</p>
                                     </div>
 
-                                    <button class="w-full md:w-[280px] font-Titillium uppercase text-[14px] font-semibold  bg-gradient-to-r from-[#811416] to-[#E72427] text-white rounded-3xl px-[50px] py-[10px] h-fit my-5">Explore Rafa Racing Team</button>
+                                    <button class="w-full md:w-[280px] font-Titillium uppercase text-[14px] font-semibold  bg-gradient-to-r from-[#811416] to-[#ba2427] text-white rounded-3xl px-[50px] py-[10px] h-fit my-5">Explore Rafa Racing Team</button>
                                 </div>
 
                                 <div className='relative hidden md:block'>
@@ -237,7 +237,7 @@ const About = () => {
                                         <p>One club. One team. One family. The RAFA Racing Team has already made a name for themselves as a team to watch, with x wins and x podiums over the last two seasons. And they show no signs of stopping.</p>
                                     </div>
 
-                                    <button class="w-full md:w-[280px] font-Titillium uppercase text-[14px] font-semibold  bg-gradient-to-r from-[#811416] to-[#E72427] text-white rounded-3xl px-[50px] py-[10px] h-fit my-5">Explore Rafa Racing Team</button>
+                                    <button class="w-full md:w-[280px] font-Titillium uppercase text-[14px] font-semibold  bg-gradient-to-r from-[#811416] to-[#ba2427] text-white rounded-3xl px-[50px] py-[10px] h-fit my-5">Explore Rafa Racing Team</button>
                                 </div>
 
                                 <div className='relative hidden md:block'>
@@ -263,7 +263,7 @@ const About = () => {
                                         <p>One club. One team. One family. The RAFA Racing Team has already made a name for themselves as a team to watch, with x wins and x podiums over the last two seasons. And they show no signs of stopping.</p>
                                     </div>
 
-                                    <button class="w-full md:w-[280px] font-Titillium uppercase text-[14px] font-semibold  bg-gradient-to-r from-[#811416] to-[#E72427] text-white rounded-3xl px-[50px] py-[10px] h-fit my-5">Explore Rafa Racing Team</button>
+                                    <button class="w-full md:w-[280px] font-Titillium uppercase text-[14px] font-semibold  bg-gradient-to-r from-[#811416] to-[#ba2427] text-white rounded-3xl px-[50px] py-[10px] h-fit my-5">Explore Rafa Racing Team</button>
                                 </div>
 
                                 <div className='relative hidden md:block'>
@@ -290,7 +290,7 @@ const About = () => {
                                         <p>One club. One team. One family. The RAFA Racing Team has already made a name for themselves as a team to watch, with x wins and x podiums over the last two seasons. And they show no signs of stopping.</p>
                                     </div>
 
-                                    <button class="w-full md:w-[280px] font-Titillium uppercase text-[14px] font-semibold  bg-gradient-to-r from-[#811416] to-[#E72427] text-white rounded-3xl px-[50px] py-[10px] h-fit my-5">Explore Rafa Racing Team</button>
+                                    <button class="w-full md:w-[280px] font-Titillium uppercase text-[14px] font-semibold  bg-gradient-to-r from-[#811416] to-[#ba2427] text-white rounded-3xl px-[50px] py-[10px] h-fit my-5">Explore Rafa Racing Team</button>
                                 </div>
 
                                 <div className='relative hidden md:block'>
@@ -317,7 +317,7 @@ const About = () => {
                                         <p>One club. One team. One family. The RAFA Racing Team has already made a name for themselves as a team to watch, with x wins and x podiums over the last two seasons. And they show no signs of stopping.</p>
                                     </div>
 
-                                    <button class="w-full md:w-[280px] font-Titillium uppercase text-[14px] font-semibold  bg-gradient-to-r from-[#811416] to-[#E72427] text-white rounded-3xl px-[50px] py-[10px] h-fit my-5">Explore Rafa Racing Team</button>
+                                    <button class="w-full md:w-[280px] font-Titillium uppercase text-[14px] font-semibold  bg-gradient-to-r from-[#811416] to-[#ba2427] text-white rounded-3xl px-[50px] py-[10px] h-fit my-5">Explore Rafa Racing Team</button>
                                 </div>
 
                                 <div className='relative hidden md:block'>
@@ -344,7 +344,7 @@ const About = () => {
                                         <p>One club. One team. One family. The RAFA Racing Team has already made a name for themselves as a team to watch, with x wins and x podiums over the last two seasons. And they show no signs of stopping.</p>
                                     </div>
 
-                                    <button class="w-full md:w-[280px] font-Titillium uppercase text-[14px] font-semibold  bg-gradient-to-r from-[#811416] to-[#E72427] text-white rounded-3xl px-[50px] py-[10px] h-fit my-5">Explore Rafa Racing Team</button>
+                                    <button class="w-full md:w-[280px] font-Titillium uppercase text-[14px] font-semibold  bg-gradient-to-r from-[#811416] to-[#ba2427] text-white rounded-3xl px-[50px] py-[10px] h-fit my-5">Explore Rafa Racing Team</button>
                                 </div>
 
                                 <div className='relative hidden md:block'>

@@ -120,7 +120,7 @@ const Section6 = () => {
                 <div className='flex flex-col gap- items pt-40 min-[1666px]:pt-60' >
                     <div className='flex md:px-40 px-5 md:py-10'>
                         <div className='w-[20%] z-10 '>
-                            <h6 className='font-Titillium text-[#E72427]'>Coming soon</h6>
+                            <h6 className='font-Titillium text-[#ba2427]'>Coming soon</h6>
                             <span className='text-white text-6xl w-[50%] overflow-hidden'>
                                 <div className="ClubHouse">
                                     Global

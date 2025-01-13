@@ -169,22 +169,22 @@ const CardSection = () => {
                                 </div>
                             </div>
 
-                            <span className='text-[#E72427] text-6xl font-semibold w-[80%] min-[1666px]:text-7xl'>
+                            <span className='text-[#ba2427] text-6xl font-semibold w-[80%] min-[1666px]:text-7xl'>
                                 <div className="ScrollImageHead3">
                                     Sim
-                                    <h1 className='text-[#E72427]'>   Sim </h1>
-                                    <h1 className='text-[#E72427]'>   Sim </h1>
-                                    <h1 className='text-[#E72427]'>   Sim </h1>
-                                    <h1 className='text-[#E72427]'>   Sim </h1>
+                                    <h1 className='text-[#ba2427]'>   Sim </h1>
+                                    <h1 className='text-[#ba2427]'>   Sim </h1>
+                                    <h1 className='text-[#ba2427]'>   Sim </h1>
+                                    <h1 className='text-[#ba2427]'>   Sim </h1>
                                 </div>
                             </span>
-                            <span className='text-[#E72427] text-6xl font-semibold w-[80%] min-[1666px]:text-7xl'>
+                            <span className='text-[#ba2427] text-6xl font-semibold w-[80%] min-[1666px]:text-7xl'>
                                 <div className="ScrollImageHead3">
                                     Setup
-                                    <h1 className='text-[#E72427]'> Setup</h1>
-                                    <h1 className='text-[#E72427]'> Setup</h1>
-                                    <h1 className='text-[#E72427]'> Setup</h1>
-                                    <h1 className='text-[#E72427]'> Setup</h1>
+                                    <h1 className='text-[#ba2427]'> Setup</h1>
+                                    <h1 className='text-[#ba2427]'> Setup</h1>
+                                    <h1 className='text-[#ba2427]'> Setup</h1>
+                                    <h1 className='text-[#ba2427]'> Setup</h1>
                                 </div>
                             </span>
 

@@ -260,7 +260,7 @@ const Amenities = () => {
     return (
         <>
         <div className='amenities-page container overflow-x-hidden'>
-            <section className='amenities-hero bg-[#e72427] items-center'>
+            <section className='amenities-hero bg-[#ba2427] items-center'>
                 <MainNavigation />
 
                 <div className='md:hidden px-5 pb-10 pt-[50%] h-[100vh] justify-center'>
@@ -335,8 +335,8 @@ const Amenities = () => {
                     <div className='h-[15vh] flex'>
                         <div className='w-[40%]'>
                             <div className='h-[60%] flex justify-center items-center'>
-                                <div className="text-[#E72427] text-4xl font-semibold ">
-                                    <h1 className="text-[#E72427] w-[120px]">Social <br/>Club</h1>
+                                <div className="text-[#ba2427] text-4xl font-semibold ">
+                                    <h1 className="text-[#ba2427] w-[120px]">Social <br/>Club</h1>
                                 </div>
                             </div>
                             <div className='h-[40%] overflow-hidden'>
@@ -360,8 +360,8 @@ const Amenities = () => {
                 </div>
                 <div className='hidden md:flex social-club p-10'>
                     <div className='flex justify-between w-[100%]'>
-                        <div className="text-[#E72427] text-4xl font-semibold ">
-                            <h1 className="text-[#E72427] w-[120px] text-right">Social <br/>Club</h1>
+                        <div className="text-[#ba2427] text-4xl font-semibold ">
+                            <h1 className="text-[#ba2427] w-[120px] text-right">Social <br/>Club</h1>
                         </div>
                         <div className='flex max-w-[465px]'>
                             <div className='flex flex-col gap-5 overflow-hidden'>
@@ -378,28 +378,28 @@ const Amenities = () => {
             <section>
                 <div className="bg-[#0c0c0c] min-h-screen md:px-12 pt-10 md:pb-20" >
                     
-                    <div className='block md:hidden uppercase text-[#E72427] text-8xl overflow-hidden opacity-[90%] text-center'>
-                        <h1 className='text-[#E72427] leading-[80px] '>Perfor<br/>mance<br/>center</h1>
+                    <div className='block md:hidden uppercase text-[#ba2427] text-8xl overflow-hidden opacity-[90%] text-center'>
+                        <h1 className='text-[#ba2427] leading-[80px] '>Perfor<br/>mance<br/>center</h1>
                     </div>
 
                     <div id='TEXTSTART' className='w-[100%] z-10 relative hidden md:block'>
                         {/* HEADING */}
-                        <span className='uppercase text-[#E72427] leading-[60px] text-[105px] font-medium overflow-hidden opacity-[90%] min-[1666px]:text-[120px]'>
+                        <span className='uppercase text-[#ba2427] leading-[60px] text-[105px] font-medium overflow-hidden opacity-[90%] min-[1666px]:text-[120px]'>
                             <div className="PerformaneCenter first-line">
                                 Performance
-                                <h1 className='text-[#E72427]'>Performance</h1>
-                                <h1 className='text-[#E72427]'>Performance</h1>
-                                <h1 className='text-[#E72427]'>Performance</h1>
-                                <h1 className='text-[#E72427]'>Performance</h1>
+                                <h1 className='text-[#ba2427]'>Performance</h1>
+                                <h1 className='text-[#ba2427]'>Performance</h1>
+                                <h1 className='text-[#ba2427]'>Performance</h1>
+                                <h1 className='text-[#ba2427]'>Performance</h1>
                             </div>
                         </span>
-                        <span className='text-[#E72427] z-50 text-[105px] font-light uppercase overflow-hidden'>
+                        <span className='text-[#ba2427] z-50 text-[105px] font-light uppercase overflow-hidden'>
                             <div className="PerformaneCenter opacity-[90%] min-[1666px]:text-[120px]">
                                 Center
-                                <h1 className='text-[#E72427]'>Center</h1>
-                                <h1 className='text-[#E72427]'>Center</h1>
-                                <h1 className='text-[#E72427]'>Center</h1>
-                                <h1 className='text-[#E72427]'>Center</h1>
+                                <h1 className='text-[#ba2427]'>Center</h1>
+                                <h1 className='text-[#ba2427]'>Center</h1>
+                                <h1 className='text-[#ba2427]'>Center</h1>
+                                <h1 className='text-[#ba2427]'>Center</h1>
                             </div>
                         </span>
                     </div>
@@ -421,7 +421,7 @@ const Amenities = () => {
                                 <h2 className='text-[25px]'>iOS and Android workout app</h2>
                             </div>
 
-                            <button className='font-Titillium uppercase tracking-[1px] text-[12px] font-bold  bg-gradient-to-r from-[#811416] to-[#e72427] text-white rounded-3xl px-10 py-4 mt-[10px] md:w-[272px]'>Book a session now</button>
+                            <button className='font-Titillium uppercase tracking-[1px] text-[12px] font-bold  bg-gradient-to-r from-[#811416] to-[#ba2427] text-white rounded-3xl px-10 py-4 mt-[10px] md:w-[272px]'>Book a session now</button>
                         </div>
                     </div>
 
@@ -438,29 +438,29 @@ const Amenities = () => {
                         <p ref={ParaGraph1} className='text-white font-Titillium text-[18px] '>Our relationships in the racing world allow us to offer exclusive access to and preferred rates on the kinds of experiences most racing enthusiasts can only dream of.</p>
                     </div>
 
-                    <div className='block md:hidden absolute text-[#E72427] text-7xl overflow-hidden text-right top-0 h-[150px]'>
-                        <h1 className='text-[#E72427] leading-[56px] '>Preferred Pricing</h1>
+                    <div className='block md:hidden absolute text-[#ba2427] text-7xl overflow-hidden text-right top-0 h-[150px]'>
+                        <h1 className='text-[#ba2427] leading-[56px] '>Preferred Pricing</h1>
                     </div>
 
                     <div className='hidden md:block w-[60%]'>
                     
-                        <span className='text-[#E72427] leading-[60px] md:text-[105px] font-medium overflow-hidden opacity-[90%]'>
+                        <span className='text-[#ba2427] leading-[60px] md:text-[105px] font-medium overflow-hidden opacity-[90%]'>
                             <div className="PerformaneCenter first-line">
                                 Preferred
-                                <h1 className='text-[#E72427]'>Preferred</h1>
-                                <h1 className='text-[#E72427]'>Preferred</h1>
-                                <h1 className='text-[#E72427]'>Preferred</h1>
-                                <h1 className='text-[#E72427]'>Preferred</h1>
+                                <h1 className='text-[#ba2427]'>Preferred</h1>
+                                <h1 className='text-[#ba2427]'>Preferred</h1>
+                                <h1 className='text-[#ba2427]'>Preferred</h1>
+                                <h1 className='text-[#ba2427]'>Preferred</h1>
                             </div>
                         </span>
 
-                        <span className='text-[#E72427] z-50 text-[105px] font-light overflow-hidden'>
+                        <span className='text-[#ba2427] z-50 text-[105px] font-light overflow-hidden'>
                             <div className="PerformaneCenter leading-[170px]">
                             Pricing
-                                <h1 className='text-[#E72427]'>Pricing</h1>
-                                <h1 className='text-[#E72427]'>Pricing</h1>
-                                <h1 className='text-[#E72427]'>Pricing</h1>
-                                <h1 className='text-[#E72427]'>Pricing</h1>
+                                <h1 className='text-[#ba2427]'>Pricing</h1>
+                                <h1 className='text-[#ba2427]'>Pricing</h1>
+                                <h1 className='text-[#ba2427]'>Pricing</h1>
+                                <h1 className='text-[#ba2427]'>Pricing</h1>
                             </div>
                         </span>
 

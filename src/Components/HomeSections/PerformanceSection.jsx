@@ -138,28 +138,28 @@ const PerformanceSection = () => {
     return (
         <>
             <div className="bg-[#0c0c0c] min-h-screen md:px-12 pb-20  py-16" >
-                <div className='block md:hidden uppercase text-[#E72427] text-8xl overflow-hidden opacity-[90%] text-center'>
-                    <h1 className='text-[#E72427] leading-[80px] '>Perfor<br/>mance<br/>center</h1>
+                <div className='block md:hidden uppercase text-[#ba2427] text-8xl overflow-hidden opacity-[90%] text-center'>
+                    <h1 className='text-[#ba2427] leading-[80px] '>Perfor<br/>mance<br/>center</h1>
                 </div>
 
                 <div id='TEXTSTART' className='w-[100%] z-10 relative hidden md:block'>
                     {/* HEADING */}
-                    <span className='uppercase text-[#E72427] leading-[60px] text-[105px] font-medium overflow-hidden opacity-[90%] min-[1666px]:text-[120px]'>
+                    <span className='uppercase text-[#ba2427] leading-[60px] text-[105px] font-medium overflow-hidden opacity-[90%] min-[1666px]:text-[120px]'>
                         <div className="PerformaneCenter first-line">
                             Performance
-                            <h1 className='text-[#E72427]'>Performance</h1>
-                            <h1 className='text-[#E72427]'>Performance</h1>
-                            <h1 className='text-[#E72427]'>Performance</h1>
-                            <h1 className='text-[#E72427]'>Performance</h1>
+                            <h1 className='text-[#ba2427]'>Performance</h1>
+                            <h1 className='text-[#ba2427]'>Performance</h1>
+                            <h1 className='text-[#ba2427]'>Performance</h1>
+                            <h1 className='text-[#ba2427]'>Performance</h1>
                         </div>
                     </span>
-                    <span className='text-[#E72427] z-50 text-[105px] font-light uppercase overflow-hidden'>
+                    <span className='text-[#ba2427] z-50 text-[105px] font-light uppercase overflow-hidden'>
                         <div className="PerformaneCenter opacity-[90%] min-[1666px]:text-[120px]">
                             Center
-                            <h1 className='text-[#E72427]'>Center</h1>
-                            <h1 className='text-[#E72427]'>Center</h1>
-                            <h1 className='text-[#E72427]'>Center</h1>
-                            <h1 className='text-[#E72427]'>Center</h1>
+                            <h1 className='text-[#ba2427]'>Center</h1>
+                            <h1 className='text-[#ba2427]'>Center</h1>
+                            <h1 className='text-[#ba2427]'>Center</h1>
+                            <h1 className='text-[#ba2427]'>Center</h1>
                         </div>
                     </span>
                 </div>
@@ -171,7 +171,7 @@ const PerformanceSection = () => {
                     {/* PARAGRAPH AND BUTTON */}
                     <div className='md:w-[50%] px-7 md:mt-40 mt-10'>
                         <div className=' border-solid border-t-[1px] border-[#4d4d4d] pt-7 ' >
-                            <p ref={ParaGraph} className='w-[85%] text-white font-Titillium text-[15px] '>Our F1 inspired training facilities feature state of the eart equipment and  programming designed in partnership with world class performance coaches Bradley Scanes (Max Verstappen) and  Michael Italiano (Daniel Ricardo & Yuki Tsunoda). </p>
+                            <p ref={ParaGraph} className='w-[85%] text-white font-Titillium text-[15px] leading-[1.4rem] '>Our F1 inspired training facilities feature state of the eart equipment and  programming designed in partnership with world class performance coaches Bradley Scanes (Max Verstappen) and  Michael Italiano (Daniel Ricardo & Yuki Tsunoda). </p>
 
                         </div>
 

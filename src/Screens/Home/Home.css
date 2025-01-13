@@ -20,8 +20,10 @@ h2 {
 
 p{
   font-family: Titillium Web;
-  font-size: 22px;
-  line-height: 31.9px;
+  font-size: 0.8rem;
+  /*line-height: 31.9px;*/
+  line-height: 1rem;
+
   font-weight: 400;
 }
 
@@ -228,7 +230,7 @@ p{
   left: 0;
   right: 0;
   bottom: 0;
-  /* color: #E72427; */
+  /* color: #ba2427; */
   pointer-events: none;
 }
 
@@ -275,7 +277,7 @@ p{
   left: 0;
   right: 0;
   bottom: 0;
-  /* color: #E72427; */
+  /* color: #ba2427; */
   pointer-events: none;
   font-size: 150px;
 }
@@ -318,7 +320,7 @@ p{
   left: 0;
   right: 0;
   bottom: 0;
-  /* color: #E72427; */
+  /* color: #ba2427; */
   pointer-events: none;
 }
 
@@ -358,7 +360,7 @@ p{
   left: 0;
   right: 0;
   bottom: 0;
-  /* color: #E72427; */
+  /* color: #ba2427; */
   pointer-events: none;
 }
 
@@ -418,7 +420,7 @@ h2 {
 }
 
 #top-hero{
-  background-color: #e72427 !important;
+  background-color: #E72427 !important;
 }
 section{
   scroll-snap-align: start;
@@ -437,7 +439,7 @@ section{
   width: 100%; 
   scroll-snap-align: start;
   overflow-y: hidden;
-  background-color: #e72427 !important;
+  background-color: #E72427 !important;
 }
 @media (min-width: 1360px){
   .section1{
@@ -445,7 +447,7 @@ section{
     width: 100%; 
     scroll-snap-align: start;
     overflow-y: hidden;
-    background-color: #e72427 !important;
+    background-color: #E72427 !important;
   }
 }
 @media (min-width: 1440px){
@@ -454,7 +456,7 @@ section{
     width: 100%; 
     scroll-snap-align: start;
     overflow-y: hidden;
-    background-color: #e72427 !important;
+    background-color: #E72427 !important;
   }
 }
 
@@ -464,7 +466,7 @@ section{
     width: 100%; 
     scroll-snap-align: start;
     overflow-y: hidden;
-    background-color: #e72427 !important;
+    background-color: #E72427 !important;
   }
 }
 
@@ -538,7 +540,7 @@ section{
 }
 
 .side-bar, .middle-bar, .bottom-bar{
-  background-color: #e72427;
+  background-color: #E72427;
 }
 .side-bar{
   top:0;
@@ -650,7 +652,7 @@ section{
   }
   .performance-hero{
     background: unset!important;
-    background-color: #e72427 !important;
+    background-color: #ba2427 !important;
   }
 
   .contact-page .left-section{
@@ -658,7 +660,7 @@ section{
     background-size: contain;
     /* height: 100%; */
     width: 100%;
-    background-color: #e72427;
+    background-color: #ba2427;
   }
   .desktop{
     display: none;
@@ -711,7 +713,7 @@ section{
   }
 
   #exclusive .text-5xl{
-    font-size: 2rem;
+    font-size: 3.5rem;
   }
   .section.section-05{
     height: auto;

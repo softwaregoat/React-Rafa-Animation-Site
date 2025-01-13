@@ -49,7 +49,7 @@ const Contact = () => {
                             </button>
 
                             
-                            <div className={show?'w-full md:block md:w-auto bg-[#e72427] z-[20]': 'hidden'} id="navbar-default" >
+                            <div className={show?'w-full md:block md:w-auto bg-[#ba2427] z-[20]': 'hidden'} id="navbar-default" >
                                 <ul className="font-medium flex flex-col p-4 md:p-0 mt-4 rounded-lg md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0  text-[30px]">
                                     <li>
                                     <a href="/about" className="block py-2 px-3 text-white font-Titillium" aria-current="page">About</a>
@@ -70,7 +70,7 @@ const Contact = () => {
                 </div>
 
                 <div className='md:flex w-[100vw] md:h-[100vh]'>
-                    <div className='md:w-[60%] w-[100%] bg-[#e72427] flex flex-col justify-center md:px-24 px-5 max-[768px]:h-[40vh] left-section'>
+                    <div className='md:w-[60%] w-[100%] bg-[#ba2427] flex flex-col justify-center md:px-24 px-5 max-[768px]:h-[40vh] left-section'>
 
                         <div className='absolute overlay w-[50%] max-[768px]:hidden'></div>
 
@@ -149,7 +149,7 @@ const Contact = () => {
                                 <label for="agree" className="ms-2 text-sm font-medium ">You agree to our friendly privacy policy</label>
                             </div>
 
-                            <button type="submit" className="font-Titillium uppercase tracking-[1px] text-[12px] font-bold  bg-gradient-to-r from-[#811416] to-[#e72427] text-white rounded-3xl px-10 py-4 mt-[10px] w-[100%]">SEND MESSAGE</button>
+                            <button type="submit" className="font-Titillium uppercase tracking-[1px] text-[12px] font-bold  bg-gradient-to-r from-[#811416] to-[#ba2427] text-white rounded-3xl px-10 py-4 mt-[10px] w-[100%]">SEND MESSAGE</button>
                         </form>
 
                         <div className="flex flex-col pt-5 ultimate-escape md:hidden">

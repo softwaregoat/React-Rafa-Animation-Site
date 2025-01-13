@@ -79,12 +79,12 @@ const OurPartners = () => {
 
                 <div className='md:w-[40%] flex our-partners-right md:px-10'>
 
-                    <span className="hidden md:block text-[#E72427] text-4xl font-semibold w-[80%] min-[1666px]:text-7xl">
-                        <h1 className="text-[#E72427]">Our Partners</h1>
+                    <span className="hidden md:block text-[#ba2427] text-4xl font-semibold w-[80%] min-[1666px]:text-7xl">
+                        <h1 className="text-[#ba2427]">Our Partners</h1>
                     </span>
 
                     <p className='md:pl-10 my-10 text-[22px]'>We proudly partner with the best— from innovative challenger brands to some of the most iconic names in motorsport.</p>
-                    <button className="font-Titillium uppercase tracking-[1px] text-[13px] font-semibold  bg-gradient-to-r from-[#811416] to-[#E72427] text-white rounded-3xl px-6 py-[15px]">Interested in becoming a partner?</button>
+                    <button className="font-Titillium uppercase tracking-[1px] text-[13px] font-semibold  bg-gradient-to-r from-[#811416] to-[#ba2427] text-white rounded-3xl px-6 py-[15px]">Interested in becoming a partner?</button>
                 </div>
             </div>
         </>

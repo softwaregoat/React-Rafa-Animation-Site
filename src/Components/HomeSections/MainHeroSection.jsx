@@ -210,7 +210,7 @@ const MainHeroSection = () => {
                             Welcome to the ultimate luxury racing club. Build community with likeminded people,
                             enjoy exclusive amenities, and get involved in racing-without any of the logistical headaches.
                         </p>
-                        <button id='ButtonFadeLeft' className="uppercase font-Titillium font-bold text-[12px] tracking-[2px] text-[#E72427]  bg-gradient-to-r from-[#ffff] to-[#FFB3B4] w-[45%] py-2 rounded-3xl min-[1666px]:text-[13px] min-[1666px]:py-3">
+                        <button id='ButtonFadeLeft' className="uppercase font-Titillium font-bold text-[12px] tracking-[2px] text-[#ba2427]  bg-gradient-to-r from-[#ffff] to-[#FFB3B4] w-[45%] py-2 rounded-3xl min-[1666px]:text-[13px] min-[1666px]:py-3">
                             Apply for Membership
                         </button>
                     </div>
