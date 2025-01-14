@@ -214,7 +214,7 @@ p{
 
 
 /* SECTION 4 CARD HEADING SECTION */
-
+/*
 .Sec4CardHeading {
   position: relative;
   margin: auto;
@@ -230,7 +230,6 @@ p{
   left: 0;
   right: 0;
   bottom: 0;
-  /* color: #ba2427; */
   pointer-events: none;
 }
 
@@ -256,7 +255,7 @@ p{
 
 
 
-
+*/
 
 
 /* SECTION 5 PERFORMANCE CENTER  */

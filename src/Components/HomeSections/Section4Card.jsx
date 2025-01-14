@@ -111,21 +111,16 @@ const Section4Card = () => {
                     {/* HEADING */}
                     <div className='w-[100%]'>
                         <div className=' ml-8 min-[1360px]:text-5xl w-[80%] text-5xl font-bold pb-10 text-white overflow-hidden '>
-                            <div className="Sec4CardHeading">
-                                Exclusive
-                                <h1 className='text-white'> Exclusive </h1>
-                                <h1 className='text-white'> Exclusive </h1>
-                                <h1 className='text-white'> Exclusive </h1>
-                                <h1 className='text-white'> Exclusive </h1>
+                            <div className="Sec4CardHeading-static">
+                                
+                                <h1 className='text-white leading-[3rem]'> Exclusive </h1>
+                                
                             </div>
                         </div>
                         <div className=' ml-8 border-solid border-b-[1px] border-[#d6d6d6] w-[80%] text-5xl font-bold pb-10 text-white -mt-[40px] overflow-hidden min-[1360px]:pb-5 min-[1440px]:pb-8'>
-                            <div className="Sec4CardHeading">
-                                Experiences
-                                <h1 className='text-white'>  Experiences</h1>
-                                <h1 className='text-white'>  Experiences</h1>
-                                <h1 className='text-white'>  Experiences</h1>
-                                <h1 className='text-white'>  Experiences</h1>
+                            <div className="Sec4CardHeading-static">
+                                <h1 className='text-white leading-[3rem]'>  Experiences</h1>
+                               
                             </div>
                         </div>
                     </div>
@@ -162,21 +157,17 @@ const Section4Card = () => {
                     {/* HEADING */}
                     <span>
                         <div className=' ml-8  w-[80%] text-5xl font-bold pb-10 text-white overflow-hidden'>
-                            <div className="Sec4CardHeading">
-                                Exclusive
-                                <h1 className='text-white'> Fractional </h1>
-                                <h1 className='text-white'> Fractional </h1>
-                                <h1 className='text-white'> Fractional </h1>
-                                <h1 className='text-white'> Fractional </h1>
+                            <div className="Sec4CardHeading-static" >
+                                
+                                <h1 className='text-white leading-[3rem] '> Fractional </h1>
+                            
                             </div>
                         </div>
                         <div className=' ml-8 border-solid border-b-[1px] border-[#d6d6d6] w-[80%] text-5xl font-bold pb-10 text-white -mt-[40px] overflow-hidden min-[1360px]:pb-6 min-[1440px]:pb-8'>
-                            <div className="Sec4CardHeading">
-                                Experiences
-                                <h1 className='text-white'>  Ownership</h1>
-                                <h1 className='text-white'>  Ownership</h1>
-                                <h1 className='text-white'>  Ownership</h1>
-                                <h1 className='text-white'>  Ownership</h1>
+                            <div className="Sec4CardHeading-static">
+                                
+                                <h1 className='text-white leading-[3rem]'>  Ownership</h1>
+                                
                             </div>
                         </div>
                     </span>
