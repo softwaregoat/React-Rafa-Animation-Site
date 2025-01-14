@@ -649,6 +649,9 @@ section{
   .col{
     width: 27vw!important;
   }
+  img.mobile.logo.py-5 {
+    width: 47%;
+}
   .performance-hero{
     background: unset!important;
     background-color: #ba2427 !important;

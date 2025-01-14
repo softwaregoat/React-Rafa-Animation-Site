@@ -206,7 +206,7 @@ const MainHeroSection = () => {
 
                     {/* Text and Button Section */}
                     <div className="sub-content min-[1199px]:w-[100%] min-[1280px]:w-[75%] flex flex-col gap-5 justify-start overflow-hidden">
-                        <p ref={MainParaGraph} className="font-Titillium text-white w-[45%] min-[1199px]:text-[13px] min-[1360px]:text-[14px] text-[14px] font-light min-[1666px]:text-[15px]">
+                        <p ref={MainParaGraph} className="font-Titillium text-white w-[45%] min-[1199px]:text-[13px] min-[1360px]:text-[1.2rem] leading-[1.6rem] text-[1.2rem] font-light min-[1666px]:text-[1.2rem]">
                             Welcome to the ultimate luxury racing club. Build community with likeminded people,
                             enjoy exclusive amenities, and get involved in racing-without any of the logistical headaches.
                         </p>

@@ -182,7 +182,7 @@ const CardSection = () => {
                                 <p className='text-[22px] h-[37px] border-r-[1px] border-solid border-[#D9D9D9] pr-6 text-[]'>01</p>
                                 <p className='text-[22px] pl-6 h-[10px] text-[#8d8d8d]'>03</p>
                             </span>
-                            <span className='font-Titillium text-[0.8vw] border-solid border-t-[1px] border-[#D9D9D9] pt-8 pb-24 min-[1666px]:text-[17px] min-[1440px]:pb-24 min-[1666px]:pb-28 '>
+                            <span className='font-Titillium text-[0.8vw] min-[1360px]:text-[1rem]  border-solid border-t-[1px] border-[#D9D9D9] pt-8 pb-24 min-[1666px]:text-[17px] min-[1440px]:pb-24 min-[1666px]:pb-28 '>
                                 <p ref={ScrollParaAppear1} id='Para1'>A private space to relax, play, or work. Grab a drink at the lounge, take business meetings, or get plugged in with tech talks, watch parties, cocktail hours, exclusive cars & coffees and more. </p>
                             </span>
                         </div>
