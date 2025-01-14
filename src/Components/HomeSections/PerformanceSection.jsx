@@ -174,8 +174,9 @@ const PerformanceSection = () => {
                             <p ref={ParaGraph} className='w-[85%] text-white font-Titillium text-[15px] leading-[1.4rem] '>Our F1 inspired training facilities feature state of the eart equipment and  programming designed in partnership with world class performance coaches Bradley Scanes (Max Verstappen) and  Michael Italiano (Daniel Ricardo & Yuki Tsunoda). </p>
 
                         </div>
-
+                        <a href="/performance">
                         <button className='md:w-[180px] w-full font-Titillium uppercase tracking-[1px] text-[12px] font-bold  bg-gradient-to-r from-[#1E2223] to-[#0C0D0E] text-white rounded-3xl px-10 py-4 mt-[56px] min-[1666px]:mt-[90px]'>LEARN MORE</button>
+                    </a>
                     </div>
                 </div>
             </div>

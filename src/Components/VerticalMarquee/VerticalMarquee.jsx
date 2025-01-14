@@ -80,7 +80,7 @@ const VerticalMarquee = () => {
 
             {/* BUTTON */}
             <div className='absolute'>
-                <button className='font-Titillium uppercase tracking-[1px] text-[13px] font-semibold  bg-gradient-to-r from-[#811416] to-[#ba2427] text-white rounded-3xl px-6 py-[15px] ml-12'>See All Amenities And Services</button>
+               {/*} <button className='font-Titillium uppercase tracking-[1px] text-[13px] font-semibold  bg-gradient-to-r from-[#811416] to-[#ba2427] text-white rounded-3xl px-6 py-[15px] ml-12'>See All Amenities And Services</button>*/}
             </div>
         </>
     )

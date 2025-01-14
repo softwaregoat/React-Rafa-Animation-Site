@@ -1,7 +1,7 @@
 import { useGSAP } from '@gsap/react'
 import gsap from 'gsap'
 import React from 'react'
-import Logo from '../../assets/RAFA Racing Club.gif'
+import Logo from '../../assets/Logot.svg'
 
 const PreLoader = () => {
 
