@@ -136,7 +136,7 @@ const MainHeroSection = () => {
         mm.add("(min-width: 768px)", () => {
             // after 2.5 seconds
             gsap.to("#top-hero" , {
-                y:'-20vh',
+                y:'-10vh',
                 duration: 2.5,
                 delay: 2.5,
                 scrollTrigger: {
@@ -172,9 +172,9 @@ const MainHeroSection = () => {
 
     return (
         <>
-            <div id='HeroParaAppear' className="">
+            <div id='HeroParaAppear' className="h-[200px]">
                
-                <div id='text-content-1' className="bg-[#E72427] flex justify-center items-center  py-5 md:py-[70px] md:px-[70px]">
+                <div id='text-content-1' className="bg-[#E72427] flex justify-center items-center  py-5 md:py-[0px] md:px-[70px]">
                     {/* Heading */}
                     <div id='heading-1' className="text-white text-5xl w-[70%] overflow-hidden">
                             <h1>

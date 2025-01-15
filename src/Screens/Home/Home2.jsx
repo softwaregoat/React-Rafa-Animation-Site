@@ -39,7 +39,7 @@ const Home = () => {
         gsap.fromTo(".side-bar.left" , 
             {},
             {
-            width: 25,
+            width: '2.5vw',
             // y: '-100vh',
             duration: 2.5,
             delay:2.5,
@@ -50,7 +50,7 @@ const Home = () => {
         });
 
         gsap.to(".side-bar.right" , {
-            width: 25,
+            width: '2.5vw',
             // y: '-100vh',
             duration: 2.5,
             delay:2.5,
@@ -65,7 +65,7 @@ const Home = () => {
                 // height:50,
             },
             {
-            height:25,
+            height:'2.5vw',
             // y: '-100vh',
             duration: 2.5,
             delay:2.5,
@@ -197,7 +197,7 @@ const Home = () => {
                     </div>
 
                     <div className='section-01-overlay px-5 md:px-0'>
-                        <div id='top-hero' className='h-[100vh] md:h-[55vh]'>
+                        <div id='top-hero' className='h-[100vh] md:h-[55vh] flex flex-col justify-end'>
                             <Navbar></Navbar>
                             <div className="md:hidden mt-[40%]">
                                 <video muted loop ref={videoRef} src={MainVideo} className='w-[100vw]'></video>
@@ -206,10 +206,10 @@ const Home = () => {
                         </div>
 
                         <div className='hidden md:flex' id='bottom-overlay'>
-                            <div className="side-bar left  h-[100vh] w-[50px] fixed"></div>
+                            <div className="side-bar left  h-[100vh] w-[5vw] fixed"></div>
                             <div className="middle-bar  h-[45vh]"></div>
-                            <div className="side-bar right   h-[100vh] w-[50px] fixed"></div>
-                            <div className="bottom-bar  h-[50px] w-[100vw] fixed"></div>
+                            <div className="side-bar right   h-[100vh] w-[5vw] fixed"></div>
+                            <div className="bottom-bar  h-[5vw] w-[100vw] fixed"></div>
                         </div>
                     </div>
                 </div>
