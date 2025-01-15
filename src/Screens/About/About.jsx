@@ -86,11 +86,11 @@ const About = () => {
     return (
         <>
         <div className='about-page container overflow-x-hidden'>
-            <section className='about-hero bg-[#ba2427] '>
+            <section className='about-hero bg-[#E72427] '>#
                 <MainNavigation />
                 <div className='md:flex md:px-10 px-5 mt-[70px] h-[90%]'>
 
-                    <div className='md:w-[40%] overflow-hidden about-hero-gif pb-10 h-[40%] md:h-[100%]'></div>
+                    <div className='md:w-[40%] overflow-hidden about-hero-gif pb-10 h-[40%] md:h-[95%]'></div>
 
                     <div className='md:w-[60%] middle-div md:pl-24 py-5'>
                         <div className='flex flex-col gap-5 overflow-hidden'>
@@ -108,8 +108,8 @@ const About = () => {
                                     <h1 className='text-white'>As</h1>
                                     <div className='border-bottom-1st h-[1px] w-[60px] md:w-[100px] bg-white'></div>
                                 </div>
-                                <div className='hidden md:block pl-10 text-[18px]'>
-                                    <p>We're a group of diehard racing enthusiasts on a mission to create community, access, and experiences that the world of motorsports has never seen.</p>
+                                <div className='hidden md:block pl-10 text-[18px] max-w-[29vw]'>
+                                    <p className='text-[1rem] pb-[0.5vw]'>We're a group of diehard racing enthusiasts on a mission to create community, access, and experiences that the world of motorsports has never seen.</p>
                                 </div>
                             </div>
                         </div>
@@ -138,8 +138,8 @@ const About = () => {
                         <div className='flex flex-col overflow-hidden'>
                             <div className='text-white flex justify-end'>
                                 <div className='text-white flex family-text hidden md:block'>
-                                    <div className='pl-10 text-[18px] w-[400px]'>
-                                        <p>That's what led us to create the RAFA Racing Club, a place where seasoned drivers and curious enthusiasts alike can build community and experience the thrill and camaraderie of racing in real life.</p>
+                                    <div className='pl-10 text-[1rem] w-[400px]'>
+                                        <p className='text-[1rem] pb-[0.5vw]'>That's what led us to create the RAFA Racing Club, a place where seasoned drivers and curious enthusiasts alike can build community and experience the thrill and camaraderie of racing in real life.</p>
                                     </div>
                                 </div>
                             </div>
@@ -159,7 +159,7 @@ const About = () => {
 
             <section>
                 <div className='h-[100vh] block relative'>
-                    <div className='flex bg-[#BA2427] absolute top-0 justify-between'>
+                    <div className='flex w-full bg-[#BA2427] absolute top-0 justify-between'>
                         <img src={black_rafa} className='md:hidden absolute top-0 left-[50%]  mt-5 translate-x-[-50%] w-[110px] h-auto' alt="" />
                         <div className='md:w-[40%]'>
                             <img src={slide_up} alt="" className='hidden md:block h-[60vh]'/>
@@ -177,13 +177,13 @@ const About = () => {
                                 <div className='md:flex justify-between items-center px-10 h-[40vh]'>
                                     <img src={Jem} className='md:hidden absolute top-[10vh] left-[50%]  translate-x-[-50%] h-[50vh] w-auto' alt="" />
                                     <div className='text-[38.81px] font-semibold my-5'>
-                                        <div className='text-[#BA2427]'><h1>Jem</h1></div>
-                                        <div className='text-black'><h1>Hepworth</h1></div>
+                                        <div className='text-[#BA2427] font-thin text-4xl '><h1>Jem</h1></div>
+                                        <div className='text-black font-thin text-4xl '><h1>Hepworth</h1></div>
                                     </div>
 
                                     <div className='w-[30vw]'></div>
 
-                                    <div className='md:w-[420px] md:text-[22px] text-[18px] pb-2'>
+                                    <div className='md:w-[23vw] md:text-[23vw] text-lg: pb-2'>
                                         <p>One club. One team. One family. The RAFA Racing Team has already made a name for themselves as a team to watch, with x wins and x podiums over the last two seasons. And they show no signs of stopping.</p>
                                     </div>
 
@@ -201,13 +201,13 @@ const About = () => {
                                 <div className='md:flex justify-between items-center px-10 h-[40vh]'>
                                     <img src={Cameron} className='md:hidden absolute top-[10vh] left-[50%]  translate-x-[-50%] h-[50vh] w-auto' alt="" />
                                     <div className='text-[38.81px] font-semibold my-5'>
-                                        <div className='text-[#BA2427]'><h1>Cameron</h1></div>
-                                        <div className='text-black'><h1>Lawrence</h1></div>
+                                        <div className='text-[#BA2427] font-thin text-4xl '><h1>Cameron</h1></div>
+                                        <div className='text-black font-thin text-4xl '><h1>Lawrence</h1></div>
                                     </div>
 
                                     <div className='w-[30vw]'></div>
 
-                                    <div className='md:w-[420px] md:text-[22px] text-[18px] pb-2'>
+                                    <div className='md:w-[23vw] md:text-[23vw] text-lg: pb-2'>
                                         <p>One club. One team. One family. The RAFA Racing Team has already made a name for themselves as a team to watch, with x wins and x podiums over the last two seasons. And they show no signs of stopping.</p>
                                     </div>
 
@@ -227,13 +227,13 @@ const About = () => {
                                 <div className='md:flex justify-between items-center px-10 h-[40vh]'>
                                     <img src={Caroline} className='md:hidden absolute top-[10vh] left-[50%]  translate-x-[-50%] h-[50vh] w-auto' alt="" />
                                     <div className='text-[38.81px] font-semibold my-5'>
-                                        <div className='text-[#BA2427]'><h1>Caroline</h1></div>
-                                        <div className='text-black'><h1>Candas</h1></div>
+                                        <div className='text-[#BA2427] font-thin text-4xl '><h1>Caroline</h1></div>
+                                        <div className='text-black font-thin text-4xl '><h1>Candas</h1></div>
                                     </div>
 
                                     <div className='w-[30vw]'></div>
 
-                                    <div className='md:w-[420px] md:text-[22px] text-[18px] pb-2'>
+                                    <div className='md:w-[23vw] md:text-[23vw] text-lg: pb-2'>
                                         <p>One club. One team. One family. The RAFA Racing Team has already made a name for themselves as a team to watch, with x wins and x podiums over the last two seasons. And they show no signs of stopping.</p>
                                     </div>
 
@@ -253,13 +253,13 @@ const About = () => {
                                 <div className='md:flex justify-between items-center px-10 h-[40vh]'>
                                     <img src={John} className='md:hidden absolute top-[10vh] left-[50%]  translate-x-[-50%] h-[50vh] w-auto' alt="" />
                                     <div className='text-[38.81px] font-semibold my-5'>
-                                        <div className='text-[#BA2427]'><h1>John</h1></div>
-                                        <div className='text-black'><h1>Lancaster</h1></div>
+                                        <div className='text-[#BA2427] font-thin text-4xl '><h1>John</h1></div>
+                                        <div className='text-black font-thin text-4xl '><h1>Lancaster</h1></div>
                                     </div>
 
                                     <div className='w-[30vw]'></div>
 
-                                    <div className='md:w-[420px] md:text-[22px] text-[18px] pb-2'>
+                                    <div className='md:w-[23vw] md:text-[23vw] text-lg: pb-2'>
                                         <p>One club. One team. One family. The RAFA Racing Team has already made a name for themselves as a team to watch, with x wins and x podiums over the last two seasons. And they show no signs of stopping.</p>
                                     </div>
 
@@ -280,13 +280,13 @@ const About = () => {
                                 <div className='md:flex justify-between items-center px-10 h-[40vh]'>
                                     <img src={Ian} className='md:hidden absolute top-[10vh] left-[50%]  translate-x-[-50%] h-[50vh] w-auto' alt="" />
                                     <div className='text-[38.81px] font-semibold my-5'>
-                                        <div className='text-[#BA2427]'><h1>Ian</h1></div>
-                                        <div className='text-black'><h1>Porter</h1></div>
+                                        <div className='text-[#BA2427] font-thin text-4xl '><h1>Ian</h1></div>
+                                        <div className='text-black font-thin text-4xl '><h1>Porter</h1></div>
                                     </div>
 
                                     <div className='w-[30vw]'></div>
 
-                                    <div className='md:w-[420px] md:text-[22px] text-[18px] pb-2'>
+                                    <div className='md:w-[23vw] md:text-[23vw] text-lg: pb-2'>
                                         <p>One club. One team. One family. The RAFA Racing Team has already made a name for themselves as a team to watch, with x wins and x podiums over the last two seasons. And they show no signs of stopping.</p>
                                     </div>
 
@@ -307,13 +307,13 @@ const About = () => {
                                 <div className='md:flex justify-between items-center px-10 h-[40vh]'>
                                     <img src={Paige} className='md:hidden absolute top-[10vh] left-[50%]  translate-x-[-50%] h-[50vh] w-auto' alt="" />
                                     <div className='text-[38.81px] font-semibold my-5'>
-                                        <div className='text-[#BA2427]'><h1>Paige</h1></div>
-                                        <div className='text-black'><h1>Morales</h1></div>
+                                        <div className='text-[#BA2427] font-thin text-4xl '><h1>Paige</h1></div>
+                                        <div className='text-black font-thin text-4xl '><h1>Morales</h1></div>
                                     </div>
 
                                     <div className='w-[30vw]'></div>
 
-                                    <div className='md:w-[420px] md:text-[22px] text-[18px] pb-2'>
+                                    <div className='md:w-[23vw] md:text-[23vw] text-lg: pb-2'>
                                         <p>One club. One team. One family. The RAFA Racing Team has already made a name for themselves as a team to watch, with x wins and x podiums over the last two seasons. And they show no signs of stopping.</p>
                                     </div>
 
@@ -334,13 +334,13 @@ const About = () => {
                                 <div className='md:flex justify-between items-center px-10 h-[40vh]'>
                                     <img src={Rafael} className='md:hidden absolute top-[10vh] left-[50%]  translate-x-[-50%] h-[50vh] w-auto' alt="" />
                                     <div className='text-[38.81px] font-semibold my-5'>
-                                        <div className='text-[#BA2427]'><h1>Rafael</h1></div>
-                                        <div className='text-black'><h1>Martinez</h1></div>
+                                        <div className='text-[#BA2427] font-thin text-4xl '><h1>Rafael</h1></div>
+                                        <div className='text-black font-thin text-4xl '><h1>Martinez</h1></div>
                                     </div>
 
                                     <div className='w-[30vw]'></div>
 
-                                    <div className='md:w-[420px] md:text-[22px] text-[18px] pb-2'>
+                                    <div className='md:w-[23vw] md:text-[24px] text-lg: pb-2'>
                                         <p>One club. One team. One family. The RAFA Racing Team has already made a name for themselves as a team to watch, with x wins and x podiums over the last two seasons. And they show no signs of stopping.</p>
                                     </div>
 
