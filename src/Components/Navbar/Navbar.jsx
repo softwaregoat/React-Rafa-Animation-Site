@@ -3,6 +3,7 @@ import logo_anim from '../../assets/Logot.svg';
 import Logo from '../../assets/RAFA-Racing-Mark-Wht 2.png'
 import { useRef } from 'react';
 
+
 const Navbar = () => {
   
   const videoRef = useRef(null); 

@@ -1,0 +1,47 @@
+<svg
+  id="stage9"
+  xmlns="http://www.w3.org/2000/svg"
+  xmlns:xlink="http://www.w3.org/1999/xlink"
+  viewBox="0 0 3000 3000"
+  style="opacity:0; transform-origin: center center;"
+>
+  <image
+    id="sl9"
+    width="3000"
+    height="3000"
+    xlink:href="https://az779572.vo.msecnd.net/stills/iSOf54kZ5_4k.jpg"
+    x="0"
+    y="0"
+  ></image>
+  
+  <animate
+    id="animate9"
+    attributeName="style"
+    attributeType="XML"
+    begin="0s"
+    dur="1s"
+    calcMode="linear"
+    values="opacity:0;opacity:1;opacity:0"
+    keyTimes="0;0.5;1"
+    repeatCount="1"
+    additive="replace"
+    accumulate="none"
+    fill="remove"
+  />
+
+  <animateTransform
+    id="animateTrans9"
+    attributeName="transform"
+    attributeType="XML"
+    type="scale"
+    begin="0s"
+    dur="1s"
+    calcMode="linear"
+    values="0.9;1.2;0.9"
+    keyTimes="0;0.5;1"
+    repeatCount="1"
+    additive="replace"
+    accumulate="none"
+    fill="remove"
+  />
+</svg>

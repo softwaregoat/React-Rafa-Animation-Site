@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pause External SVG Animations</title>
+</head>
+<body>
+  <h1>Pause External SVG Animations After 1.4 Seconds</h1>
+  <div id="svg-container"></div>
+
+  <script>
+    // Function to load and embed an external SVG
+    async function loadSVG(url, container) {
+      try {
+        const response = await fetch(url);
+        const svgContent = await response.text();
+        container.innerHTML = svgContent;
+
+        // Pause animations 1.4 seconds after the SVG is embedded
+        const svgElement = container.querySelector("svg");
+        setTimeout(() => pauseSVGAnimations(svgElement), 1400);
+      } catch (error) {
+        console.error("Failed to load SVG:", error);
+      }
+    }
+
+    // Function to pause SMIL animations in an SVG
+    function pauseSVGAnimations(svgElement) {
+      if (!svgElement) {
+        console.warn("No SVG element found to pause animations.");
+        return;
+      }
+
+      const animations = svgElement.querySelectorAll("animate, animateTransform");
+      animations.forEach((animation) => {
+        if (typeof animation.pause === "function") {
+          animation.pause();
+          console.log("Paused animation:", animation);
+        } else {
+          console.warn("Animation element does not support pause():", animation);
+        }
+      });
+    }
+
+    // Load the SVG file
+    const svgContainer = document.getElementById("svg-container");
+    loadSVG("test.svg", svgContainer); // Replace with the actual path to your SVG file
+  </script>
+</body>
+</html>
