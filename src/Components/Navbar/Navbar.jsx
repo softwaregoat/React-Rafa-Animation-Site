@@ -11,7 +11,7 @@ const Navbar = () => {
   return (
     <>
       <img src={Logo} alt="" className='mobile logo py-5' />
-      <div id='logo-top-bar' className='bg-[#E72427] px-20 '>
+      <div id='logo-top-bar' className='bg-[#E72427] px-10 z-[5] relative'>
         <div className=' w-[210px] max-[1280px]:w-[180px]'>
           <img src={logo_anim} alt="" /> 
         </div>

@@ -206,8 +206,8 @@ const Home = () => {
                         </div>
 
                         <div className='hidden md:flex' id='bottom-overlay'>
-                            <div className="side-bar left  h-[100vh] w-[5vw] fixed"></div>
-                            <div className="middle-bar  h-[45vh]"></div>
+                            <div className="side-bar left  h-[100vh] w-[5vw] fixed z-[2]"></div>
+                            <div className="middle-bar  h-[45vh]  z-[2]"></div>
                             <div className="side-bar right   h-[100vh] w-[5vw] fixed"></div>
                             <div className="bottom-bar  h-[5vw] w-[100vw] fixed"></div>
                         </div>

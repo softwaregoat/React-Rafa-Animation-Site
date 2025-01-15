@@ -22,7 +22,7 @@ const VerticalMarquee = () => {
 
     return (
         <>
-            <div  id='VerTextMarquee' className=' h-[590px] overflow-hidden min-[1360px]:h-[530px] min-[1666px]:h-[600px] '>
+            <div  id='VerTextMarquee' className='relative h-[590px] overflow-hidden min-[1360px]:h-[530px] min-[1666px]:h-[600px] '>
                 <div className='marque-content flex flex-col gap-1 overflow-hidden overflow-y-hidden'>
                     <h6 className='text-white font-Titillium text-[19px] font-semibold'>F1 Hospitality and VIP Events</h6>
                     <h6 className='text-white font-Titillium text-[19px] font-semibold'>Consignment Services</h6>
@@ -117,7 +117,8 @@ const VerticalMarquee = () => {
                     <h6 className='text-white font-Titillium text-[19px] font-semibold'>Racing Academy</h6>
                 </div>
             </div>
-            <div className='marque-bottom border-b-[1px] md:w-[0px] w-full pt-10'></div>
+            <div className='marque-bottom w-[25%] h-[150px] absolute bottom-0 bg-gradient-to-t from-[#000] to-[#0e0e0e00]'></div>
+            <div className='marque-bottom w-[25%] h-[150px] absolute top-0 bg-gradient-to-b from-[#000] to-[#0e0e0e00]'></div>
 
             {/* BUTTON */}
             {/* <div className='absolute'>
