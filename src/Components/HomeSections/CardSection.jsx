@@ -180,11 +180,11 @@ const CardSection = () => {
                             <span className='text-[#BA2427] text-5xl font-semibold w-[80px] min-[1666px]:text-7xl '>
                                 <div className="ScrollImageHead h-[50px]">
                                     Members-Only
-                                    <h1 className='text-[#BA2427] [@media(max-width:390px)]:text-[2rem] leading-[3rem] '>   Members-Only </h1>
-                                    <h1 className='text-[#BA2427] [@media(max-width:390px)]:text-[2rem]leading-[3rem]'>   Members-Only </h1>
-                                    <h1 className='text-[#BA2427] [@media(max-width:390px)]:text-[2rem]leading-[3rem]'>   Members-Only </h1>
-                                    <h1 className='text-[#BA2427] [@media(max-width:390px)]:text-[2rem]leading-[3rem]'>   Members-Only </h1>
-                                    <h1 className=' text-[#BA2427] [@media(max-width:390px)]:text-[2rem]leading-[3rem]'>Members-Only</h1>
+                                    <h1 className='text-[#BA2427] [@media(max-width:390px)]:text-[2rem] leading-[3rem]'>Members-Only </h1>
+                                    <h1 className='text-[#BA2427] [@media(max-width:390px)]:text-[2rem] leading-[3rem]'>Members-Only </h1>
+                                    <h1 className='text-[#BA2427] [@media(max-width:390px)]:text-[2rem] leading-[3rem]'>Members-Only </h1>
+                                    <h1 className='text-[#BA2427] [@media(max-width:390px)]:text-[2rem] leading-[3rem]'>Members-Only </h1>
+                                    <h1 className='text-[#BA2427] [@media(max-width:390px)]:text-[2rem] leading-[3rem]'>Members-Only</h1>
                                    {/* <h1><img src={header2}/></h1>*/}
 
                                 </div>

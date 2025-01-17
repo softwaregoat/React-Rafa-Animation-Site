@@ -139,11 +139,11 @@ const Section6 = () => {
                                     <h1 className='text-white'> Clubhouses</h1>
                                 </div>
                             </span>
-                            <div className='md:hidden my-5 text-start flex justify-start'>
+                            <div className='xl:hidden my-5 text-start flex justify-start'>
                                 <p ref={ParaGraph} className='w-[350px] text-[15px] text-white font-Titillium'>No matter where your home club is, you’re welcome at any of our locations.</p>
                             </div>
                         </div>
-                        <div className='w-[50%] mt-20 text-start flex justify-start'>
+                        <div className=' hidden xl:block w-[50%] mt-20 text-start flex justify-start'>
                             <p ref={ParaGraph} className='w-[15%] text-[15px] text-white font-Titillium'>No matter where your home club is, you’re welcome at any of our locations.</p>
                         </div>
                     </div>

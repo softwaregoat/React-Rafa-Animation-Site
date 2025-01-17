@@ -113,13 +113,14 @@ const Section4Card = () => {
                         <div className=' ml-8 min-[1360px]:text-5xl w-[80%] text-5xl font-bold pb-10 text-white overflow-hidden '>
                             <div className="Sec4CardHeading-static">
                                 
-                                <h1 className='text-white leading-[3rem] font-thin'> Exclusive </h1>
+                                <h1 className='text-white leading-[3rem] font-thin max-[1200px]:text-[2rem] max-[1200px]:leading-[2rem]'> Exclusive </h1>
+
                                 
                             </div>
                         </div>
                         <div className=' overflow-visible ml-8 border-solid border-b-[1px] border-[#d6d6d6] w-[80%] text-5xl font-bold pb-10 text-white -mt-[40px] overflow-hidden min-[1360px]:pb-5 min-[1440px]:pb-8'>
                             <div className="Sec4CardHeading-static">
-                                <h1 className='text-white leading-[3rem] font-thin '>  Experiences</h1>
+                                <h1 className='text-white leading-[3rem] font-thin max-[1200px]:text-[2rem] max-[1200px]:leading-[2rem]'>  Experiences</h1>
                                
                             </div>
                         </div>
@@ -159,20 +160,20 @@ const Section4Card = () => {
                         <div className=' ml-8  w-[80%] text-5xl font-bold pb-10 text-white overflow-hidden'>
                             <div className="Sec4CardHeading-static" >
                                 
-                                <h1 className='text-white leading-[3rem] font-thin '> Fractional </h1>
+                                <h1 className='text-white leading-[3rem] font-thin  max-[1200px]:text-[2rem] max-[1200px]:leading-[2rem]'> Fractional </h1>
                             
                             </div>
                         </div>
                         <div className=' ml-8 border-solid border-b-[1px] border-[#d6d6d6] w-[80%] text-5xl font-bold pb-10 text-white -mt-[40px] overflow-hidden min-[1360px]:pb-6 min-[1440px]:pb-8 overflow-visible'>
                             <div className="Sec4CardHeading-static">
                                 
-                                <h1 className='text-white leading-[3rem] font-thin'>  Ownership</h1>
+                                <h1 className='text-white leading-[3rem] font-thin  max-[1200px]:text-[2rem] max-[1200px]:leading-[2rem]'>  Ownership</h1>
                                 
                             </div>
                         </div>
                     </span>
                     {/* IMAGE */}
-                    <div id='ZoomUpImage' className='py-4 scale-[1] h-[30vh]'>
+                    <div id='ZoomUpImage' className='py-4 scale-[1] h-[279px]'>
                         <span className='flex items-end justify-end -mt-[120px] min-[1360px]:-mt-[100px] min-[1440px]:-mt-[120px] '>
                             <img className='w-[9%] max-[1665px]:w-[8%]' src={Card2Image3} alt="" />
                         </span>
