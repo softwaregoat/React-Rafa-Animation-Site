@@ -141,7 +141,7 @@ const Contact = () => {
                            
                             <div className="mb-5">
                                 <label for="Message" className="block mb-2 text-sm font-medium">Message</label>
-                                <textarea id="message" rows="4" className="block p-2.5 w-full text-sm rounded-lg border border-gray-300 " placeholder="Leave us a message..."></textarea>
+                                <textarea id="message" name='message' rows="4" className="block p-2.5 w-full text-sm rounded-lg border border-gray-300 " placeholder="Leave us a message..."></textarea>
                             </div>
                            
 
