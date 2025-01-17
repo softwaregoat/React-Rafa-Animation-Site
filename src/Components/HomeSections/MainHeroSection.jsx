@@ -184,7 +184,7 @@ const MainHeroSection = () => {
                         
                             </div>
                             </div>
-                        
+                        {/*}
                         <span id='' className="w-[80%] ">
                             <div className="HeroSecHeader">
                                 Where the
@@ -212,7 +212,7 @@ const MainHeroSection = () => {
                                 <h1 className='text-white'>faster things meet</h1>
                             </div>
                         </span>
-                        
+                        */}
                     </div>
 
                     {/* Text and Button Section */}
