@@ -114,7 +114,7 @@ const Contact = () => {
                     </div>
                     <div className='w-[40%]  max-[768px]:w-[100%] bg-white  flex flex-col justify-center px-5 md:px-24 pt-5'>
                         
-                        <form name="contact"   method="POST" data-netlify="true"  className='max-w-sm mx-0 md:mx-auto' >
+                        <form name="contact"   method="POST" data-netlify="true"   data-netlify-debug="true"   action="/thank-you" className='max-w-sm mx-0 md:mx-auto' >
                         <input type="hidden" name="form-name" value="contact" />
 
                             <div className='block gap-3 md:flex'>
