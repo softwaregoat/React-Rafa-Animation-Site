@@ -179,9 +179,9 @@ const MainHeroSection = () => {
                     <div id='heading-1' className="text-white text-5xl w-[70%] overflow-hidden">
                     <div class="crop-wrapper">
                         <div class="cropper-text">
-                            <h1>
-                            <img src={header1} alt="" /> 
-                            </h1>
+                            
+                           <img src={header1} alt="" />
+                        
                             </div>
                             </div>
                         {/*}
