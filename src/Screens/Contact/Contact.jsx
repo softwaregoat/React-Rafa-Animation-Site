@@ -113,23 +113,9 @@ const Contact = () => {
 
                     </div>
                     <div className='w-[40%]  max-[768px]:w-[100%] bg-white  flex flex-col justify-center px-5 md:px-24 pt-5'>
-                    <form name="contact" id="contactForm" method="POST" data-netlify="true" netlify-honeypot="bot-field">
-  <input type="hidden" name="form-name" value="contactForm" />
-  <p>
-    <label>Your Name: <input type="text" name="name" /></label>
-  </p>
-  <p>
-    <label>Your Email: <input type="email" name="email" /></label>
-  </p>
-  <p>
-    <label>Message: <textarea name="message"></textarea></label>
-  </p>
-  <p>
-    <button type="submit">Send</button>
-  </p>
-</form>
-                        <form name="contact"   method="POST" data-netlify="true"   data-netlify-debug="true"   action="/thank-you" className='max-w-sm mx-0 md:mx-auto' >
-                        <input type="hidden" name="form-name" value="contact" />
+                    
+                        <form name="contact"  id="contactForm" method="POST" data-netlify="true"   data-netlify-debug="true"  netlify-honeypot="bot-field">  action="/thank-you" className='max-w-sm mx-0 md:mx-auto' >
+                        <input type="hidden" name="form-name" value="contactForm" />
 
                             <div className='block gap-3 md:flex'>
                                 <div className="mb-5">
