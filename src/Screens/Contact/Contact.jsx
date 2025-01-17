@@ -114,47 +114,36 @@ const Contact = () => {
                     </div>
                     <div className='w-[40%]  max-[768px]:w-[100%] bg-white  flex flex-col justify-center px-5 md:px-24 pt-5'>
                     
-                        <form name="contact"  id="contactForm" method="POST" data-netlify="true"   data-netlify-debug="true"  netlify-honeypot="bot-field">  
-                        <input type="hidden" name="form-name" value="contactForm" />
+                        
+                        <form name="contact" netlify netlify-honeypot="bot-field" hidden>
+      <input type="text" name="name" />
+      <input type="email" name="email" />
+      <textarea name="message"></textarea>
+    </form>
 
-                            <div className='block gap-3 md:flex'>
-                                <div className="mb-5">
-                                    <label className="block mb-2 text-sm font-medium">First name</label>
-                                    <input type="text" name='first_name' id="first_name" className="border border-gray-300 text-sm rounded-lg block w-full p-2.5" placeholder="First name" required />
-                                </div>
+    <div id="root"></div>
+    <script type="text/babel">
 
-                                <div className="mb-5">
-                                    <label for="last_name" className="block mb-2 text-sm font-medium">Last name</label>
-                                    <input type="text" name='last_name' id="last_name" className="border border-gray-300 text-sm rounded-lg block w-full p-2.5" placeholder="Last name" required />
-                                </div>
-                            </div>
+      ReactDOM.render(
+        <form name="contact" method="post">
+          <input type="hidden" name="form-name" value="contact" />
+          <p>
+            <label>Your Name: <input type="text" name="name"/></label>
+          </p>
+          <p>
+            <label>Your Email: <input type="email" name="email"/></label>
+          </p>
+          <p>
+            <label>Message: <textarea name="message"></textarea></label>
+          </p>
+          <p>
+            <button type="submit">Send</button>
+          </p>
+        </form>,
+        document.getElementById("root")
+      );
 
-                            <div className="mb-5">
-                                <label for="email" className="block mb-2 text-sm font-medium">Email</label>
-                                <input type="email" id="email" name='email' className="border border-gray-300 text-sm rounded-lg block w-full p-2.5" placeholder="you@company.com" required />
-                            </div>
-
-                            <div className="mb-5">
-                                <label for="phone_number" className="block mb-2 text-sm font-medium">Phone number</label>
-                                <input type="tel" id="phone_number" name='phone_number' className="border border-gray-300 text-sm rounded-lg block w-full p-2.5" placeholder="+1 (555) 000-0000" required />
-                            </div>
-                           
-                            <div className="mb-5">
-                                <label for="Message" className="block mb-2 text-sm font-medium">Message</label>
-                                <textarea id="message" rows="4" className="block p-2.5 w-full text-sm rounded-lg border border-gray-300 " placeholder="Leave us a message..."></textarea>
-                            </div>
-                           
-
-                            <div className="flex items-start mb-5">
-                                <div className="flex items-center h-5">
-                                    <input id="agree" type="checkbox" value="" className="w-4 h-4 border border-gray-300 rounded bg-gray-50 focus:ring-3 focus:ring-blue-300 dark:bg-gray-700 dark:border-gray-600 dark:focus:ring-blue-600 dark:ring-offset-gray-800 dark:focus:ring-offset-gray-800" required />
-                                </div>
-                                <label for="agree" className="ms-2 text-sm font-medium ">You agree to our friendly privacy policy</label>
-                            </div>
-
-                            <button type="submit" className="font-Titillium uppercase tracking-[1px] text-[12px] font-bold  bg-gradient-to-r from-[#811416] to-[#ba2427] text-white rounded-3xl px-10 py-4 mt-[10px] w-[100%]">SEND MESSAGE</button>
-                        </form>
-
+    </script>
                         <div className="flex flex-col pt-5 ultimate-escape md:hidden">
                             <div className="flex family-text">
                                 <p>For brand partnership inquiries: <br/>email@emailaddress.com</p>
