@@ -137,9 +137,7 @@ p{
   top: -2.5vw;
   z-index: 100;
 }
-.cropper-text{
 
-}
 /* CARD 2 */
 .ScrollImageHead2 {
   position: relative;
@@ -748,10 +746,7 @@ section{
   .marquee-card button{
     margin-left:0;
   }
-  .section-06 > div{
-    /* justify-content: space-between;
-    padding: unset; */
-  }
+ 
 
   .right-half.performance{
     flex-direction: column;
