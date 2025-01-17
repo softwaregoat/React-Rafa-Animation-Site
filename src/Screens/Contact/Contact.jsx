@@ -113,8 +113,8 @@ const Contact = () => {
 
                     </div>
                     <div className='w-[40%]  max-[768px]:w-[100%] bg-white  flex flex-col justify-center px-5 md:px-24 pt-5'>
-                    <form name="contact" method="POST" data-netlify="true" netlify-honeypot="bot-field">
-  <input type="hidden" name="form-name" value="contact" />
+                    <form name="contact" id="contactForm" method="POST" data-netlify="true" netlify-honeypot="bot-field">
+  <input type="hidden" name="form-name" value="contactForm" />
   <p>
     <label>Your Name: <input type="text" name="name" /></label>
   </p>
