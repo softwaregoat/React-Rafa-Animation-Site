@@ -38,7 +38,7 @@ const Performance = () => {
         <div className='about-page container overflow-x-hidden'>
             <section className='performance-hero relative'>
             
-            <div className="video-container hidden md:block">
+            <div className="video-container-perf hidden md:block">
                 <video muted loop autoPlay  id='background-video' src={performance_hero_video} className='w-[100vw] h-[100vh]'></video>
             </div>
                 <div className='bg-transparent absolute w-[100vw] top-0 z-[100]'>
