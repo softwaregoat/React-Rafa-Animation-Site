@@ -334,7 +334,7 @@ const Amenities = () => {
                     <div className='h-[60vh] social-club-mobile-bg w-[100vw] overflow-hidden'>
                         <img src={social_club_mobile} alt="" />
                     </div>
-                    <div className='h-[15vh] flex'>
+                    <div className='h-[15vh] flex max-[380px]:h-[23vh] max-[500px]:h-[24vh]'>
                         <div className='w-[40%]'>
                             <div className='h-[60%] flex justify-center items-center'>
                                 <div className="text-[#ba2427] text-4xl font-semibold ">
@@ -355,7 +355,7 @@ const Amenities = () => {
                         </div>
                     </div>
 
-                    <div className='h-[25vh] flex family-text text-xl p-5'>
+                    <div className='h-[25vh] flex family-text text-xl p-5 max-[380px]:h-[17vh]  max-[500px]:h-16vh]'>
                         <p>Whether you’re a seasoned gentleman diver or a new but passionate enthusiast, our club is the ultimate destination to escape your daily grind, get plugged into the world of racing, and spend time with likeminded people.</p>
                     </div>
 
@@ -439,7 +439,7 @@ const Amenities = () => {
                     </div>
 
                     <div className='block md:hidden pt-5'>
-                        <p ref={ParaGraph1} className='text-white font-Titillium text-[0.8vw]  pl-[5vw]  '>Our relationships in the racing world allow us to offer exclusive access to and preferred rates on the kinds of experiences most racing enthusiasts can only dream of.</p>
+                        <p ref={ParaGraph1} className='text-white font-Titillium text-[0.8rem]  pl-[5vw]  '>Our relationships in the racing world allow us to offer exclusive access to and preferred rates on the kinds of experiences most racing enthusiasts can only dream of.</p>
                     </div>
 
                     <div className='block md:hidden absolute text-[#ba2427] text-7xl overflow-hidden text-right top-0 h-[150px]'>
