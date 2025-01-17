@@ -164,7 +164,7 @@ const CardSection = () => {
                                 <div className='mobile'>
                                     <div className='flex'>
                                         <p className='text-[22px] h-[37px] border-r-[1px] border-solid border-[#D9D9D9] pr-6 text-[]'>03</p>
-                                        <p className='text-[22px] pl-6 h-[10px] text-[#8d8d8d]'>04</p>
+                                        <p className='text-[22px] pl-6 h-[10px] text-[#8d8d8d]'>03</p>
                                     </div>
                                 </div>
                             </div>

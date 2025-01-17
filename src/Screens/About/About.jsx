@@ -94,7 +94,7 @@ const About = () => {
 
                     <div className='md:w-[60%] middle-div md:pl-24 py-5'>
                         <div className='flex flex-col gap-5 overflow-hidden'>
-                            <div className='md:text-[122px] md:h-[145px] text-[80px] h-[90px]'>
+                            <div className='md:text-[122px] md:h-[145px] text-[80px] h-[90px] max-[380px]:h-[auto] max-[380px]:text-[3rem]'>
                                 <div className="">
                                     <h1 className='text-white'>Race</h1>
                                     <div className='border-bottom-1st h-[1px] w-[60px] md:w-[100px] bg-white'></div>
