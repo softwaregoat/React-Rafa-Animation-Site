@@ -167,7 +167,8 @@ const PerformanceSection = () => {
                 <div className='flex items-center md:mt-[-57px] mt-[-25px] right-half performance'>
                     {/* VIDEO  */}
                     <span className='bg-white w-[75%] max-[768px]:w-[100%] video-span'>
-                        <video src={Sec5BannerVideo} type='video/webm' muted loop autoPlay    playsInline   preload="auto" ref={RefVideo}></video>
+                        <video id='Sec5BannerVideo' className='md:h-[80vh] w-full' autoPlay muted loop  playsInline   preload="auto"  src={Sec5BannerVideo} type='video/webm' ref={RefVideo} ></video>
+
                     </span>
                     {/* PARAGRAPH AND BUTTON */}
                     <div className='md:w-[50%] px-7 md:mt-40 mt-10'>
