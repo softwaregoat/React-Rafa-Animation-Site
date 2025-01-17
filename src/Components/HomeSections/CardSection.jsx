@@ -214,7 +214,7 @@ const CardSection = () => {
                 </div>
                 <div className='w-[50%] relative right-half mt-5 md:mt-0'>
                     <div className='right-video-overlay video1'></div>
-                    <video id='Card1Video' className='md:h-[80vh] w-full' autoPlay muted loop src={Card1Video} ref={videoRef1} ></video>
+                    <video id='Card1Video' className='md:h-[80vh] w-full' autoPlay muted loop  playsInline   preload="auto"  src={Card1Video}  type='video/webm'ref={videoRef1} ></video>
                 </div>
                 <span className='md:hidden font-Titillium text-[20px] border-solid border-b-[1px] border-[#D9D9D9] py-5 min-[1666px]:text-[1.2rem]'>
                     <p id='Para1' className='min-[1360px]:text-[1rem] leading-[1.6rem] text-[1rem] font-light min-[1666px]:text-[1rem]'>A private space to relax, play, or work. Grab a drink at the lounge, take business meetings, or get plugged in with tech talks, watch parties, cocktail hours, exclusive cars & coffees and more. </p>
