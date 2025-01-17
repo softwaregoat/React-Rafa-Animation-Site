@@ -104,7 +104,7 @@ const About = () => {
 
                         <div className='flex flex-col gap-5 overflow-hidden'>
                             <div className='text-white flex items-center'>
-                                <div className="md:text-[122px] md:h-[145px] text-[80px] h-[90px] max-[380px]:h-[auto] max-[380px]:text-[4rem] max-[380px]:leading-[4.5rem]">
+                                <div className="md:text-[122px] md:h-[145px] text-[80px] h-[90px] max-[380px]:h-[auto] max-[380px]:text-[4rem] max-[380px]:leading-[3.5rem]">
                                     <h1 className='text-white'>As</h1>
                                     <div className='border-bottom-1st h-[1px] w-[60px] md:w-[100px] bg-white'></div>
                                 </div>
@@ -118,7 +118,7 @@ const About = () => {
                         <div className='flex flex-col gap-5 overflow-hidden'>
                             <div className='md:text-[122px] md:h-[145px] text-[80px] h-[90px] max-[380px]:h-[auto] max-[380px]:text-[4rem] max-[380px]:leading-[4.5rem]'>
                                 <div className="">
-                                    <h1 className='text-white'>Family</h1>
+                                    <h1 className='text-white  max-[380px]:leading-[4.5rem]'>Family</h1>
                                     <div className='border-bottom-1st h-[1px] w-[60px] md:w-[100px] bg-white'></div>
                                 </div>
                             </div>
@@ -128,7 +128,7 @@ const About = () => {
                             <div className='text-white flex items-center'>
                                 <div className='md:text-[122px] md:h-[145px] text-[80px] h-[100px] max-[380px]:h-[auto] max-[380px]:text-[4rem] max-[380px]:leading-[4.5rem]'>
                                     <div className="">
-                                        <h1 className='text-white'>Always</h1>
+                                        <h1 className='text-white  max-[380px]:leading-[4.5rem] '>Always</h1>
                                         <div className='border-bottom-1st h-[1px] w-[60px] md:w-[100px] bg-white'></div>
                                     </div>
                                 </div>
