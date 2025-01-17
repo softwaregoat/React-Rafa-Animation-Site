@@ -3,7 +3,7 @@ import '../../Screens/Home/Home.css';
 import { useGSAP } from '@gsap/react';
 import gsap from 'gsap';
 import ScrollTrigger from "gsap/ScrollTrigger";
-import header1 from '../../assets/svg/Text1.svg'
+import header1 from '../../assets/svg/headerintro.svg'
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -177,14 +177,14 @@ const MainHeroSection = () => {
                 <div id='text-content-1' className="bg-[#E72427] flex justify-center items-center  py-5 md:py-[0px] md:px-[0px]">
                     {/* Heading */}
                     <div id='heading-1' className="text-white text-5xl w-[70%] overflow-hidden">
-                   {/* <div class="crop-wrapper">
+                   <div class="crop-wrapper">
                         <div class="cropper-text">
                             
                            <img src={header1} alt="" />
                         
                             </div>
                             </div>
-                        */}
+                        
                         <span id='' className="w-[80%] ">
                             <div className="HeroSecHeader">
                                 Where the
