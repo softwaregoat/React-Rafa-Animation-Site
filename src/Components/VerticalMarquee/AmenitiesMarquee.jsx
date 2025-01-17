@@ -117,8 +117,8 @@ const VerticalMarquee = () => {
                     <h6 className='text-white font-Titillium text-[19px] font-semibold'>Racing Academy</h6>
                 </div>
             </div>
-            <div className='marque-bottom w-[25%] h-[150px] absolute bottom-0 bg-gradient-to-t from-[#000] to-[#0e0e0e00]'></div>
-            <div className='marque-bottom w-[25%] h-[150px] absolute top-0 bg-gradient-to-b from-[#000] to-[#0e0e0e00]'></div>
+            <div className='marque-bottom w-[25%] h-[150px] absolute bottom-0 bg-gradient-to-t from-[#000] [@media(max-width:390px)]: to-[#0e0e0e00]  [@media(max-width:390px)]: w-[100%]'></div>
+            <div className='marque-bottom w-[25%] h-[150px] absolute top-0 bg-gradient-to-b from-[#000]  to-[#0e0e0e00]  [@media(max-width:390px)]: w-[100%]'></div>
 
             {/* BUTTON */}
             {/* <div className='absolute'>

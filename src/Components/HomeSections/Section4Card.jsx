@@ -105,7 +105,7 @@ const Section4Card = () => {
     return (
         <>
         <div>
-        <div id='exclusive' className="md:px-12 px-5 flex gap-10 pt-2 justify-start min-[1666px]:gap-20 min-[1360px]:px-24 min-[1440px]:px-28 min-[1666px]:py-14">
+        <div id='exclusive' className="md:px-12 px-5 flex gap-10 pt-2 justify-start min-[1666px]:gap-20 min-[1360px]:px-24 min-[1440px]:px-28 min-[1666px]:py-14 [@media(max-width:780px)]:pt-[6rem]">
                 {/* CARD 1 */}
                 <div id='CardZoomUp' className='flex bg-[#ba2427] w-[30%]  max-[1359px]:py-7 min-[1360px]:py-7 max-[1360px]:w-[28.5%] min-[1440px]:py-5 min-[1440px]:w-[28.5%] min-[1666px]:py-12 min-[1666px]:w-[28%] max-[768px]:w-[100%]'>
                     {/* HEADING */}
@@ -113,13 +113,13 @@ const Section4Card = () => {
                         <div className=' ml-8 min-[1360px]:text-5xl w-[80%] text-5xl font-bold pb-10 text-white overflow-hidden '>
                             <div className="Sec4CardHeading-static">
                                 
-                                <h1 className='text-white leading-[3rem]'> Exclusive </h1>
+                                <h1 className='text-white leading-[3rem] font-thin'> Exclusive </h1>
                                 
                             </div>
                         </div>
-                        <div className=' ml-8 border-solid border-b-[1px] border-[#d6d6d6] w-[80%] text-5xl font-bold pb-10 text-white -mt-[40px] overflow-hidden min-[1360px]:pb-5 min-[1440px]:pb-8'>
+                        <div className=' overflow-visible ml-8 border-solid border-b-[1px] border-[#d6d6d6] w-[80%] text-5xl font-bold pb-10 text-white -mt-[40px] overflow-hidden min-[1360px]:pb-5 min-[1440px]:pb-8'>
                             <div className="Sec4CardHeading-static">
-                                <h1 className='text-white leading-[3rem]'>  Experiences</h1>
+                                <h1 className='text-white leading-[3rem] font-thin '>  Experiences</h1>
                                
                             </div>
                         </div>
@@ -159,14 +159,14 @@ const Section4Card = () => {
                         <div className=' ml-8  w-[80%] text-5xl font-bold pb-10 text-white overflow-hidden'>
                             <div className="Sec4CardHeading-static" >
                                 
-                                <h1 className='text-white leading-[3rem]  '> Fractional </h1>
+                                <h1 className='text-white leading-[3rem] font-thin '> Fractional </h1>
                             
                             </div>
                         </div>
                         <div className=' ml-8 border-solid border-b-[1px] border-[#d6d6d6] w-[80%] text-5xl font-bold pb-10 text-white -mt-[40px] overflow-hidden min-[1360px]:pb-6 min-[1440px]:pb-8 overflow-visible'>
                             <div className="Sec4CardHeading-static">
                                 
-                                <h1 className='text-white leading-[3rem] '>  Ownership</h1>
+                                <h1 className='text-white leading-[3rem] font-thin'>  Ownership</h1>
                                 
                             </div>
                         </div>

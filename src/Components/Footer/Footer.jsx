@@ -106,9 +106,9 @@ const Footer = () => {
                     <p className='block md:hidden text-[#525252] px-5 pb-5 text-center'>&copy; 2024 Rafa Racing Club</p>
                     <ul className='text-[#cacaca] flex gap-20 justify-between px-14 font-Titillium text-sm'>
                         <li className='hidden md:block'>&copy; 2024 Rafa Racing Club</li>
-                        <li>Instagram</li>
-                        <li>TikTok</li>
-                        <li>Youtube</li>
+                       <a href='https://www.instagram.com/rafaracing.club' ><li>Instagram</li></a>
+                       <a href='https://www.tiktok.com/@rafaracing.club' > <li>TikTok</li></a>
+                       <a href='https://www.youtube.com/@rafaracingclub' > <li>Youtube</li></a>
                     </ul>
                 </div>
             </div>

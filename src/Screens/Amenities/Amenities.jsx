@@ -255,10 +255,12 @@ const Amenities = () => {
                 }
             });
     })
+    
 
     
     return (
         <>
+       
         <div className='amenities-page container overflow-x-hidden'>
             <section className='amenities-hero bg-[#E72427] items-center'>
                 <MainNavigation />
@@ -375,11 +377,12 @@ const Amenities = () => {
                 </div>
             </section>
 
-            <section>
-                <div className="bg-[#0c0c0c] min-h-screen md:px-12 pt-10 md:pb-20" >
+            <section className='[@media(max-width:390px)]:snap-align-none h-auto'>
+                <div className="bg-[#0c0c0c] min-h-screen md:px-12 pt-10 md:pb-20 [@media(max-width:390px)]:pb-[5rem]" >
                     
                     <div className='block md:hidden uppercase text-[#ba2427] text-8xl overflow-hidden opacity-[90%] text-center'>
-                        <h1 className='text-[#ba2427] leading-[80px] '>Perfor<br/>mance<br/>center</h1>
+                    <h1 className='text-[#BA2427] leading-[80px] [@media(max-width:390px)]:text-[5rem] leading-[3rem] '>Perfor<br/>mance<br/>center</h1>
+
                     </div>
 
                     <div id='TEXTSTART' className='w-[100%] z-10 relative hidden md:block'>
@@ -414,11 +417,11 @@ const Amenities = () => {
                                 <p ref={ParaGraph} className='text-white font-Titillium text-[0.8rem] '>Our top-of-the-line performance center has everything you need to stay in shape, plus exclusive technology designed specifically for racing fitness.</p>
                             </div>
 
-                            <div className='pt-7' >
-                                <h2 className='text-[1.4rem] leading-loose'>Full gym</h2>
-                                <h2 className='text-[1.4rem] leading-loose'>State of the art equipment</h2>
-                                <h2 className='text-[1.4rem] leading-loose'>F1 curated workout plans</h2>
-                                <h2 className='text-[1.4rem] leading-loose'>iOS and Android workout app</h2>
+                            <div className='pt-7 ' >
+                                <h2 className='text-[1.4rem] leading-loose [@media(max-width:390px)]:text-[1rem] leading-[3rem]'>Full gym</h2>
+                                <h2 className='text-[1.4rem] leading-loose [@media(max-width:390px)]:text-[1rem] leading-[3rem]'>State of the art equipment</h2>
+                                <h2 className='text-[1.4rem] leading-loose [@media(max-width:390px)]:text-[1rem] leading-[3rem]'>F1 curated workout plans</h2>
+                                <h2 className='text-[1.4rem] leading-loose [@media(max-width:390px)]:text-[1rem] leading-[3rem]'>iOS and Android workout app</h2>
                             </div>
                             <a href="/contact">
                             <button className='font-Titillium uppercase tracking-[1px] text-[12px] font-bold  bg-gradient-to-r from-[#811416] to-[#ba2427] text-white rounded-3xl px-10 py-4 mt-[10px] md:w-[272px]'>Book a session now</button>

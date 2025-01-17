@@ -75,7 +75,7 @@ const Contact = () => {
                         <div className='absolute overlay w-[50%] max-[768px]:hidden'></div>
 
                         <div className="flex flex-col gap-5 overflow-hidden  mb-[-18px] ultimate-escape">
-                            <div className="text-white text-6xl max-[768px]:text-[50px]">
+                            <div className="text-white text-6xl max-[768px]: text-[2rem]">
                                 <div className="">
                                     <h1 className="text-white leading-none">Have a question about the RAFA Racing Club?</h1>
                                 </div>
@@ -91,29 +91,30 @@ const Contact = () => {
 
                         <div className="flex flex-col pt-10 ultimate-escape max-[768px]:hidden">
                             <div className="text-white flex family-text">
-                                <p>1234 Lorem Ipsum Street<br/>
-                                Houston, Texas 93920</p>
+                                <p>5236 Brittmoore Rd
+                                Houston, Texas 77041<br/>
+                                </p>
                             </div>
                         </div>
 
                         <div className='flex gap-10 mt-24 ultimate-escape  max-[768px]:hidden'>
-                            <div>
-                                <a href=""><img src={instagram} alt="Instagram" /></a>
+                        <div>
+                                <a href="https://www.instagram.com/rafaracing.club"><img src={instagram_black} alt="Instagram" /></a>
                             </div>
 
                             <div>
-                                <a href=""><img src={youtube} alt="Youtube" /></a>
+                                <a href="https://www.youtube.com/@rafaracingclub"><img src={youtube_black} alt="Youtube" /></a>
                             </div>
 
                             <div>
-                                <a href=""><img src={tiktok} alt="Tiktok" /></a>
+                                <a href="https://www.tiktok.com/@rafaracing.club"><img src={tiktok_black} alt="Tiktok" /></a>
                             </div>
                         </div>
 
                     </div>
                     <div className='w-[40%]  max-[768px]:w-[100%] bg-white  flex flex-col justify-center px-5 md:px-24 pt-5'>
                         
-                        <form name="contact" method="POST" data-netlify="true" className='max-w-sm mx-0 md:mx-auto'>
+                        <form name="contact" netlify method="POST" data-netlify="true" className='max-w-sm mx-0 md:mx-auto' >
                             <div className='block gap-3 md:flex'>
                                 <div className="mb-5">
                                     <label className="block mb-2 text-sm font-medium">First name</label>
@@ -166,22 +167,23 @@ const Contact = () => {
 
                         <div className="flex flex-col pt-5 ultimate-escape md:hidden">
                             <div className="flex family-text">
-                                <p>1234 Lorem Ipsum Street<br/>
-                                Houston, Texas 93920</p>
+                                <p> 5236 Brittmoore Rd<br/>
+                               
+                                Houston, Texas 77041</p>
                             </div>
                         </div>
 
                         <div className='flex justify-between py-5 ultimate-escape  md:hidden'>
                             <div>
-                                <a href=""><img src={instagram_black} alt="Instagram" /></a>
+                                <a href="https://www.instagram.com/rafaracing.club"><img src={instagram_black} alt="Instagram" /></a>
                             </div>
 
                             <div>
-                                <a href=""><img src={youtube_black} alt="Youtube" /></a>
+                                <a href="https://www.youtube.com/@rafaracingclub"><img src={youtube_black} alt="Youtube" /></a>
                             </div>
 
                             <div>
-                                <a href=""><img src={tiktok_black} alt="Tiktok" /></a>
+                                <a href="https://www.tiktok.com/@rafaracing.club"><img src={tiktok_black} alt="Tiktok" /></a>
                             </div>
                         </div>
                     </div>
