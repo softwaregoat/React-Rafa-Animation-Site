@@ -199,7 +199,7 @@ const CardSection = () => {
                 {/* CARD 2 Video */}
                 <div className='w-[50%] relative right-half mt-5 md:mt-0'>
                     <div className='right-video-overlay video2'></div>
-                    <video id='Card2Video' className='md:h-[80vh] w-full' autoPlay muted loop src={Card2Video} ref={videoRef2} ></video>
+                    <video id='Card2Video' className='md:h-[80vh] w-full' autoPlay muted loop  playsInline   preload="auto"  src={Card2Video} type='video/webm' ref={videoRef2} ></video>
                 </div>
 
                 <span className='md:hidden font-Titillium text-[20px] border-solid border-b-[1px] border-[#D9D9D9] py-5'>

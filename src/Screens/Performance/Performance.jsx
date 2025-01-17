@@ -39,7 +39,7 @@ const Performance = () => {
             <section className='performance-hero relative'>
             
             <div className="video-container-perf hidden md:block">
-                <video muted loop autoPlay  id='background-video' src={performance_hero_video} className='w-[100vw] h-[100vh]'></video>
+                <video muted loop autoPlay playsInline id='background-video' src={performance_hero_video}  type='video/webm' className='w-[100vw] h-[100vh]'></video>
             </div>
                 <div className='bg-transparent absolute w-[100vw] top-0 z-[100]'>
                     <nav className='hidden md:flex text-xl py-5 justify-between px-24 text-white'>

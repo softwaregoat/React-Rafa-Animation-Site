@@ -409,7 +409,7 @@ const Amenities = () => {
                     <div className='flex items-center md:-mt-[57px] -mt-[30px] right-half performance md:max-h-[500px] h-[100%]'>
                         {/* VIDEO  */}
                         <span className='md:w-[70%] w-[100%] video-span overflow-hidden'>
-                            <video src={Sec5BannerVideo} muted loop ref={RefVideo}></video>
+                            <video src={Sec5BannerVideo}  autoPlay muted loop  playsInline  type='video/webm'  preload="auto"ref={RefVideo}></video>
                         </span>
                         {/* PARAGRAPH AND BUTTON */}
                         <div className='md:w-[30%] px-7 flex flex-col justify-between md:h-[100%] mt-[35px] md:mt-0'>
