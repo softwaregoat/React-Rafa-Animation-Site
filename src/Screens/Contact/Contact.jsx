@@ -17,7 +17,6 @@ import tiktok from '../../assets/tiktok.png';
 import tiktok_black from '../../assets/tiktok-black.png';
 
 
-import React from "react";
 
 function ContactForm() {
   return (
