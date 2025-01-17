@@ -126,7 +126,7 @@ const Section4Card = () => {
                     </div>
                     {/* IMAGE */}
 
-                    <div id='ZoomUpImage' className='py-9 scale-[0.1]  h-[60%] flex  flex-col justify-center min-[1360px]:my-0 min-[1666px]:my-5 h-[30vh]'>
+                    <div id='ZoomUpImage' className='py-9 scale-[1]  h-[60%] flex  flex-col justify-center min-[1360px]:my-0 min-[1666px]:my-5 h-[30vh]'>
                         <div className=' flex items-end'>
                             <span>
                                 <img className='w-[85%] min-[1666px]:w-[85%]' src={Card1Image3} alt="" />
@@ -148,7 +148,7 @@ const Section4Card = () => {
 
                     {/* DESCRIPTION */}
                     <div>
-                      <p className='font-Titillium text-[0.8rem]  font-normal leading-[1.4rem] ml-8 w-[80%] border-solid border-t-[1px] border-[#d6d6d6] pt-10 text-white min-[1666px]:pt-7 min-[1440px]:pt-7 min-[1360px]:pt-5'>From F1 events- to members-only track days to exclusive tech talks, RAFA Racing Club memberships give you access to the kinds of experiences money can’t buy. </p>
+                      <p className='font-Titillium text-[0.8rem]  font-normal leading-[1.4rem] ml-8 w-[80%] border-solid border-t-[1px] border-[#d6d6d6] pt-10 text-white min-[1666px]:pt-7 text-[1rem] min-[1440px]:pt-7 min-[1360px]:pt-5 text-[1rem]'>From F1 events- to members-only track days to exclusive tech talks, RAFA Racing Club memberships give you access to the kinds of experiences money can’t buy. </p>
                     </div>
                 </div>
                 {/* CARD 1 END */}
@@ -159,20 +159,20 @@ const Section4Card = () => {
                         <div className=' ml-8  w-[80%] text-5xl font-bold pb-10 text-white overflow-hidden'>
                             <div className="Sec4CardHeading-static" >
                                 
-                                <h1 className='text-white leading-[3rem] '> Fractional </h1>
+                                <h1 className='text-white leading-[3rem]  '> Fractional </h1>
                             
                             </div>
                         </div>
-                        <div className=' ml-8 border-solid border-b-[1px] border-[#d6d6d6] w-[80%] text-5xl font-bold pb-10 text-white -mt-[40px] overflow-hidden min-[1360px]:pb-6 min-[1440px]:pb-8'>
+                        <div className=' ml-8 border-solid border-b-[1px] border-[#d6d6d6] w-[80%] text-5xl font-bold pb-10 text-white -mt-[40px] overflow-hidden min-[1360px]:pb-6 min-[1440px]:pb-8 overflow-visible'>
                             <div className="Sec4CardHeading-static">
                                 
-                                <h1 className='text-white leading-[3rem]'>  Ownership</h1>
+                                <h1 className='text-white leading-[3rem] '>  Ownership</h1>
                                 
                             </div>
                         </div>
                     </span>
                     {/* IMAGE */}
-                    <div id='ZoomUpImage' className='py-4 scale-[0.1] h-[30vh]'>
+                    <div id='ZoomUpImage' className='py-4 scale-[1] h-[30vh]'>
                         <span className='flex items-end justify-end -mt-[120px] min-[1360px]:-mt-[100px] min-[1440px]:-mt-[120px] '>
                             <img className='w-[9%] max-[1665px]:w-[8%]' src={Card2Image3} alt="" />
                         </span>
@@ -184,7 +184,7 @@ const Section4Card = () => {
                         </span>
                     </div>
                     {/* DESCRIPTION */}
-                    <p className='font-Titillium text-[0.8rem]  font-normal leading-[1.4rem] ml-8 w-[81%]  pt-10 text-white min-[1666px]:pt-7 min-[1360px]:pt-6 border-solid border-t-[1px] border-[#8a8a8a]'>For members who want to race but don’t want to commit to an entire season, RAFA Racing Club gives you opportunities to participate in series or own race cars on a fractional basis. </p>
+                    <p className='font-Titillium text-[0.8rem]  font-normal leading-[1.4rem] ml-8 w-[81%]  pt-10 text-white min-[1666px]:pt-7 text-[1rem] min-[1360px]:pt-6 border-solid border-t-[1px] border-[#8a8a8a] text-[1rem]'>For members who want to race but don’t want to commit to an entire season, RAFA Racing Club gives you opportunities to participate in series or own race cars on a fractional basis. </p>
                 </div>
                 {/* CARD 2 END */}
                 {/* VERTICAL TEXT MARQUEE */}

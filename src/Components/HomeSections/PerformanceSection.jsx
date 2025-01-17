@@ -138,11 +138,11 @@ const PerformanceSection = () => {
     return (
         <>
             <div className="bg-[#0c0c0c] min-h-screen md:px-12 pb-20  py-16" >
-                <div className='block md:hidden uppercase text-[#ba2427] text-8xl overflow-hidden opacity-[90%] text-center'>
+                <div className='block md:hidden uppercase text-[#ba2427] text-8xl overflow-hidden opacity-[90%] text-center pb-[1rem]'>
                     <h1 className='text-[#ba2427] leading-[80px] '>Perfor<br/>mance<br/>center</h1>
                 </div>
 
-                <div id='TEXTSTART' className='w-[100%] z-10 relative hidden md:block'>
+                <div id='TEXTSTART' className='w-[100%] z-10 relative hidden md:block '>
                     {/* HEADING */}
                     <span className='uppercase text-[#ba2427] leading-[60px] text-[105px] font-medium overflow-hidden opacity-[90%] min-[1666px]:text-[120px]'>
                         <div className="PerformaneCenter first-line">

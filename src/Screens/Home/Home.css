@@ -128,7 +128,18 @@ p{
   mask-image: linear-gradient(transparent 75%, black 75%);
 }
 
+.cropper-text {
+  width: 40vw;
+  height: 17vw;
+  overflow: hidden;
+  position: relative;
+  margin-left: -3.5vw;
+  top: -2.5vw;
+  z-index: 100;
+}
+.cropper-text{
 
+}
 /* CARD 2 */
 .ScrollImageHead2 {
   position: relative;
@@ -210,7 +221,11 @@ p{
 
 
 
+.font-medium{
+  font-family: Titillium Web;
 
+
+}
 
 
 /* SECTION 4 CARD HEADING SECTION */
@@ -420,6 +435,12 @@ h2 {
 
 #top-hero{
   background-color: #E72427 !important;
+  position: relative;
+  z-index: 4;
+}
+div#bottom-overlay{
+  position: relative;
+  z-index: 2;
 }
 section{
   scroll-snap-align: start;
@@ -779,7 +800,8 @@ html{
   margin-top: -75px;
 }
 .performance-hero .PerformaneCenter h1{
-  font-size: 80px;
+  font-size: 5rem;
+  opacity: 0.7;
 }
 .performance-hero{
   background: url("../../assets/perfromance.gif") no-repeat center center;

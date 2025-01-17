@@ -2,6 +2,8 @@ import gsap from 'gsap'
 import { useGSAP } from '@gsap/react';
 import ScrollTrigger from "gsap/ScrollTrigger";
 import React, { useEffect, useRef } from 'react'
+import header2 from '../../assets/svg/membersonly.svg'
+
 // IMAGE 
 import Logo from '../../assets/Logo2.png'
 // VIDEO
@@ -21,6 +23,8 @@ const CardSection = () => {
     }, [])
     // HEADER TEXT ANIMATION
     // CARD 1
+    
+
     useGSAP(() => {
         gsap.fromTo(".ScrollImageHead > h1:nth-child(1)",
             { x: "-150%" },
@@ -81,6 +85,21 @@ const CardSection = () => {
                     toggleActions: 'restart none none none',
                 }
             });
+            gsap.fromTo(".ScrollImageHead > h1:nth-child(5)",
+                { x: "-150%" },
+                {
+                    x: "0%",
+                    duration: 1.5,
+                    ease: "power1.inOut",
+                    delay: 0.3,
+                    scrollTrigger: {
+                        scroller: ".container",
+                        trigger: "#CardSection1",
+                        start: 'center 51%',
+                        toggleActions: 'restart none none none',
+                    }
+                });
+           
     })
 
 
@@ -165,6 +184,8 @@ const CardSection = () => {
                                     <h1 className='text-[#BA2427]'>   Members-Only </h1>
                                     <h1 className='text-[#BA2427]'>   Members-Only </h1>
                                     <h1 className='text-[#BA2427]'>   Members-Only </h1>
+                                   {/* <h1><img src={header2}/></h1>*/}
+
                                 </div>
                             </span>
                             <span className='text-[#BA2427] text-5xl font-semibold w-[80%] min-[1666px]:text-7xl'>
@@ -174,6 +195,8 @@ const CardSection = () => {
                                     <h1 className='text-[#BA2427]'>    Clubhouse </h1>
                                     <h1 className='text-[#BA2427]'>    Clubhouse </h1>
                                     <h1 className='text-[#BA2427]'>    Clubhouse </h1>
+                                    
+
                                 </div>
                             </span>
                         </div>
@@ -182,8 +205,8 @@ const CardSection = () => {
                                 <p className='text-[22px] h-[37px] border-r-[1px] border-solid border-[#D9D9D9] pr-6 text-[]'>01</p>
                                 <p className='text-[22px] pl-6 h-[10px] text-[#8d8d8d]'>03</p>
                             </span>
-                            <span className='font-Titillium text-[0.8vw]   border-solid border-t-[1px] border-[#D9D9D9] pt-8 pb-24 min-[1666px]:text-[17px] min-[1440px]:pb-24 min-[1666px]:pb-28 '>
-                                <p ref={ScrollParaAppear1} id='Para1'>A private space to relax, play, or work. Grab a drink at the lounge, take business meetings, or get plugged in with tech talks, watch parties, cocktail hours, exclusive cars & coffees and more. </p>
+                            <span className='font-Titillium text-[0.8vw]   border-solid border-t-[1px] border-[#D9D9D9] pt-8 pb-24 min-[1666px]:text-[1.2rem] min-[1440px]:pb-24 min-[1666px]:pb-28 '>
+                                <p ref={ScrollParaAppear1} id='Para1' >A private space to relax, play, or work. Grab a drink at the lounge, take business meetings, or get plugged in with tech talks, watch parties, cocktail hours, exclusive cars & coffees and more. </p>
                             </span>
                         </div>
                     </div>
@@ -192,8 +215,8 @@ const CardSection = () => {
                     <div className='right-video-overlay video1'></div>
                     <video id='Card1Video' className='md:h-[80vh] w-full' autoPlay muted loop src={Card1Video} ref={videoRef1} ></video>
                 </div>
-                <span className='md:hidden font-Titillium text-[20px] border-solid border-b-[1px] border-[#D9D9D9] py-5'>
-                    <p id='Para1'>A private space to relax, play, or work. Grab a drink at the lounge, take business meetings, or get plugged in with tech talks, watch parties, cocktail hours, exclusive cars & coffees and more. </p>
+                <span className='md:hidden font-Titillium text-[20px] border-solid border-b-[1px] border-[#D9D9D9] py-5 min-[1666px]:text-[1.2rem]'>
+                    <p id='Para1' className='min-[1360px]:text-[1rem] leading-[1.6rem] text-[1rem] font-light min-[1666px]:text-[1rem]'>A private space to relax, play, or work. Grab a drink at the lounge, take business meetings, or get plugged in with tech talks, watch parties, cocktail hours, exclusive cars & coffees and more. </p>
                 </span>
             </div>
             </div>

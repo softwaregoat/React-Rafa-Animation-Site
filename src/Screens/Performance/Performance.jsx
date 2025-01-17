@@ -81,7 +81,7 @@ const Performance = () => {
                         {/* HEADING */}
                         <span className='uppercase text-white text-[40px] font-medium overflow-hidden'>
                             <div className="first-line">
-                                <h1>An F1-level<br/>Performance center<br/>at your fingertips</h1>
+                                <h1 className='text[#E72427]'>An F1-level<br/>Performance center<br/>at your fingertips</h1>
                             </div>
                         </span>
                     </div>
@@ -90,38 +90,29 @@ const Performance = () => {
 
                     <div id='TEXTSTART' className='w-[100%] z-10 relative md:opacity-[80%] hidden md:block'>
                         {/* HEADING */}
-                        <span className='uppercase text-[#ba2427] leading-[60px] text-[105px] font-medium overflow-hidden min-[1666px]:text-[120px]'>
-                            <div className="PerformaneCenter first-line">
-                                An F1-level
-                                <h1 className='text-[#ba2427]'>An F1-level</h1>
-                                <h1 className='text-[#ba2427]'>An F1-level</h1>
-                                <h1 className='text-[#ba2427]'>An F1-level</h1>
-                                <h1 className='text-[#ba2427]'>An F1-level</h1>
+                        <span className='uppercase text-[#E72427] leading-[60px] text-[105px] font-medium overflow-hidden min-[1666px]:text-[120px]'>
+                            <div className="PerformaneCenterPage first-line">
+                                <h1 className='text-[#ff282bc9] leading-none text-[5rem]'>An F1-level</h1>
+                                
                             </div>
                         </span>
-                        <span className='text-[#ba2427] z-50 text-[105px] font-light uppercase overflow-hidden'>
-                            <div className="PerformaneCenter">
-                                Performance center
-                                <h1 className='text-[#ba2427]'>Performance center</h1>
-                                <h1 className='text-[#ba2427]'>Performance center</h1>
-                                <h1 className='text-[#ba2427]'>Performance center</h1>
-                                <h1 className='text-[#ba2427]'>Performance center</h1>
+                        <span className='text-[#E72427] z-50 text-[105px] font-light uppercase overflow-hidden'>
+                            <div className="PerformaneCenterPage">
+                                <h1 className='text-[#ff282bc9] leading-none text-[5rem]'>Performance center</h1>
+                              
                             </div>
                         </span>
 
-                        <span className='text-[#ba2427] z-50 text-[80px] font-light uppercase overflow-hidden'>
-                            <div className="PerformaneCenter last-line">
-                                at your fingertips
-                                <h1 className='text-[#ba2427]'>at your fingertips</h1>
-                                <h1 className='text-[#ba2427]'>at your fingertips</h1>
-                                <h1 className='text-[#ba2427]'>at your fingertips</h1>
-                                <h1 className='text-[#ba2427]'>at your fingertips</h1>
+                        <span className='text-[#E72427] z-50 text-[80px] font-light uppercase overflow-hidden'>
+                            <div className="PerformaneCenterPage last-line">
+                                <h1 className='text-[#ff282bc9] leading-none text-[5rem]'>at your fingertips</h1>
+                                
                             </div>
                         </span>
                     </div>
 
-                    <div className='pb-10 pt-10 md:pt-0 px-5 md:px-0 md:absolute right-[30px] bottom-[50px] md:w-[440px]'>
-                        <p  className='text-white font-Titillium text-[18px] '>Our F1-inspired training facility features state-of-the-art equipment and programming designed by some of the top minds in racing, plus pro-level development and coaching.</p>
+                    <div className=' leading-[1.2rem] pb-2 pt-10 md:pt-0 px-5 md:px-0 right-[30px] bottom-[50px] md:w-[440px]'>
+                        <p  className='text-white font-Titillium text-[0.8rem] leading-none max-[800px]:text-[1.25rem] leading-[1.75rem] '>Our F1-inspired training facility features state-of-the-art equipment and programming designed by some of the top minds in racing, plus pro-level development and coaching.</p>
                     </div>
 
                 </div>
@@ -270,7 +261,7 @@ const Performance = () => {
                                 <span className="text-[#ba2427] text-6xl font-semibold min-[1666px]:text-7xl">
                                     <h1 className="text-[#ba2427]">WANT TO TRAIN<br/> LIKE THE PROS?</h1>
                                 </span>
-                                <button className="font-Titillium uppercase tracking-[1px] text-[13px] font-semibold  bg-gradient-to-r from-[#811416] to-[#ba2427] text-white rounded-3xl px-6 py-[15px] w-[400px] mt-10">Explore the Performance Center</button>
+                               {/* <button className="font-Titillium uppercase tracking-[1px] text-[13px] font-semibold  bg-gradient-to-r from-[#811416] to-[#ba2427] text-white rounded-3xl px-6 py-[15px] w-[400px] mt-10">Explore the Performance Center</button>*/}
                             </div>
 
                         </div>

@@ -260,7 +260,7 @@ const Amenities = () => {
     return (
         <>
         <div className='amenities-page container overflow-x-hidden'>
-            <section className='amenities-hero bg-[#ba2427] items-center'>
+            <section className='amenities-hero bg-[#E72427] items-center'>
                 <MainNavigation />
 
                 <div className='md:hidden px-5 pb-10 pt-[50%] h-[100vh] justify-center'>
@@ -363,7 +363,7 @@ const Amenities = () => {
                         <div className="text-[#ba2427] text-4xl font-semibold ">
                             <h1 className="text-[#ba2427] w-[120px] text-right">Social <br/>Club</h1>
                         </div>
-                        <div className='flex max-w-[465px]'>
+                        <div className='flex max-w-[20vw]'>
                             <div className='flex flex-col gap-5 overflow-hidden'>
                                 <div className='flex family-text text-xl'>
                                         <p>Whether you’re a seasoned gentleman diver or a new but passionate enthusiast, our club is the ultimate destination to escape your daily grind, get plugged into the world of racing, and spend time with likeminded people.</p>
@@ -411,17 +411,18 @@ const Amenities = () => {
                         {/* PARAGRAPH AND BUTTON */}
                         <div className='md:w-[30%] px-7 flex flex-col justify-between md:h-[100%] mt-[35px] md:mt-0'>
                             <div className='border-solid border-y-[1px] md:border-b-[1px] border-white md:pb-10 py-5'>
-                                <p ref={ParaGraph} className='text-white font-Titillium text-[18px] '>Our top-of-the-line performance center has everything you need to stay in shape, plus exclusive technology designed specifically for racing fitness.</p>
+                                <p ref={ParaGraph} className='text-white font-Titillium text-[0.8rem] '>Our top-of-the-line performance center has everything you need to stay in shape, plus exclusive technology designed specifically for racing fitness.</p>
                             </div>
 
                             <div className='pt-7' >
-                                <h2 className='text-[25px]'>Full gym</h2>
-                                <h2 className='text-[25px]'>State of the art equipment</h2>
-                                <h2 className='text-[25px]'>F1 curated workout plans</h2>
-                                <h2 className='text-[25px]'>iOS and Android workout app</h2>
+                                <h2 className='text-[1.4rem] leading-loose'>Full gym</h2>
+                                <h2 className='text-[1.4rem] leading-loose'>State of the art equipment</h2>
+                                <h2 className='text-[1.4rem] leading-loose'>F1 curated workout plans</h2>
+                                <h2 className='text-[1.4rem] leading-loose'>iOS and Android workout app</h2>
                             </div>
-
+                            <a href="/contact">
                             <button className='font-Titillium uppercase tracking-[1px] text-[12px] font-bold  bg-gradient-to-r from-[#811416] to-[#ba2427] text-white rounded-3xl px-10 py-4 mt-[10px] md:w-[272px]'>Book a session now</button>
+                            </a>
                         </div>
                     </div>
 
@@ -435,7 +436,7 @@ const Amenities = () => {
                     </div>
 
                     <div className='block md:hidden pt-5'>
-                        <p ref={ParaGraph1} className='text-white font-Titillium text-[18px] '>Our relationships in the racing world allow us to offer exclusive access to and preferred rates on the kinds of experiences most racing enthusiasts can only dream of.</p>
+                        <p ref={ParaGraph1} className='text-white font-Titillium text-[0.8vw]  pl-[5vw]  '>Our relationships in the racing world allow us to offer exclusive access to and preferred rates on the kinds of experiences most racing enthusiasts can only dream of.</p>
                     </div>
 
                     <div className='block md:hidden absolute text-[#ba2427] text-7xl overflow-hidden text-right top-0 h-[150px]'>
@@ -465,7 +466,7 @@ const Amenities = () => {
                         </span>
 
                         <div className='mt-10 w-[370px]'>
-                            <p ref={ParaGraph1} className='text-white font-Titillium text-[18px] '>Our relationships in the racing world allow us to offer exclusive access to and preferred rates on the kinds of experiences most racing enthusiasts can only dream of.</p>
+                            <p ref={ParaGraph1} className='text-white font-Titillium text-[0.8vw] pl-[5vw] '>Our relationships in the racing world allow us to offer exclusive access to and preferred rates on the kinds of experiences most racing enthusiasts can only dream of.</p>
                         </div>
                     </div>
                 </div>

@@ -206,7 +206,7 @@ const CardSection = () => {
                     <video id='Card3Video' className='md:h-[80vh] w-full' autoPlay muted loop src={Card3Video} ref={videoRef3} ></video>
                 </div>
                 <span className='md:hidden font-Titillium text-[20px] border-solid border-b-[1px] border-[#D9D9D9] py-5'>
-                    <p>With access to our state-of-the-art racing simulators, club members can hone their skills, join league play and compete in tournaments.</p>
+                    <p className='min-[1360px]:text-[1rem] leading-[1.6rem] text-[1rem] font-light min-[1666px]:text-[1rem]'>With access to our state-of-the-art racing simulators, club members can hone their skills, join league play and compete in tournaments.</p>
                 </span>
             </div>
 

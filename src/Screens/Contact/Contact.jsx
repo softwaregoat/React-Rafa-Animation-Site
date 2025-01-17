@@ -70,14 +70,14 @@ const Contact = () => {
                 </div>
 
                 <div className='md:flex w-[100vw] md:h-[100vh]'>
-                    <div className='md:w-[60%] w-[100%] bg-[#ba2427] flex flex-col justify-center md:px-24 px-5 max-[768px]:h-[40vh] left-section'>
+                    <div className='md:w-[60%] w-[100%] bg-[#E72427] flex flex-col justify-center md:px-24 px-5 max-[768px]:h-[40vh] left-section'>
 
                         <div className='absolute overlay w-[50%] max-[768px]:hidden'></div>
 
                         <div className="flex flex-col gap-5 overflow-hidden  mb-[-18px] ultimate-escape">
                             <div className="text-white text-6xl max-[768px]:text-[50px]">
                                 <div className="">
-                                    <h1 className="text-white">Have a question about the RAFA Racing Club?</h1>
+                                    <h1 className="text-white leading-none">Have a question about the RAFA Racing Club?</h1>
                                 </div>
                             </div>
                         </div>

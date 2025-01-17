@@ -3,7 +3,7 @@ import '../../Screens/Home/Home.css';
 import { useGSAP } from '@gsap/react';
 import gsap from 'gsap';
 import ScrollTrigger from "gsap/ScrollTrigger";
-import header1 from '../../assets/svg/text1.svg'
+import header1 from '../../assets/svg/Text1.svg'
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -177,9 +177,13 @@ const MainHeroSection = () => {
                 <div id='text-content-1' className="bg-[#E72427] flex justify-center items-center  py-5 md:py-[0px] md:px-[0px]">
                     {/* Heading */}
                     <div id='heading-1' className="text-white text-5xl w-[70%] overflow-hidden">
+                    <div class="crop-wrapper">
+                        <div class="cropper-text">
                             <h1>
                             <img src={header1} alt="" /> 
                             </h1>
+                            </div>
+                            </div>
                         {/*}
                         <span id='' className="w-[80%] ">
                             <div className="HeroSecHeader">
@@ -213,7 +217,7 @@ const MainHeroSection = () => {
 
                     {/* Text and Button Section */}
                     <div className="sub-content min-[1199px]:w-[100%] min-[1280px]:w-[75%] flex flex-col gap-5 justify-start overflow-hidden">
-                        <p ref={MainParaGraph} className="font-Titillium text-white w-[45%] min-[1199px]:text-[13px] min-[1360px]:text-[1.2rem] leading-[1.6rem] text-[1.2rem] font-light min-[1666px]:text-[1.2rem]">
+                        <p ref={MainParaGraph} className="font-Titillium text-white w-[45%] min-[1199px]:text-[13px] min-[1360px]:text-[1rem] leading-[1.6rem] text-[1rem] font-light min-[1666px]:text-[1rem]">
                             Welcome to the ultimate luxury racing club. Build community with likeminded people,
                             enjoy exclusive amenities, and get involved in racing-without any of the logistical headaches.
                         </p>

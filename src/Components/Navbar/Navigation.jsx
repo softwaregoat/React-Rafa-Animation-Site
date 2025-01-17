@@ -53,12 +53,12 @@ const MainNavigation = () => {
             <a href="/contact"><p className='font-Titillium text-[14px]'>Contact</p></a>
         </nav>
 
-        <nav className="block md:hidden">
+        <nav className="block md:hidden fixed">
             <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
                 <a href="/" className="flex items-center space-x-3 rtl:space-x-reverse">
                     <img src={Logo} className="h-8" alt="Rafa" />
                 </a>
-                <button onClick={() => {changeState();}} data-collapse-toggle="navbar-default" type="button" className="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-white" aria-controls="navbar-default" aria-expanded="false">
+                <button onClick={() => {changeState();}} data-collapse-toggle="navbar-default" type="button" className="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-white fixed right-0" aria-controls="navbar-default" aria-expanded="false">
                     <img src={open_menu_icon} style={{maxWidth:'unset'}} className={show?'hidden':''} alt="" />
                     <img src={close_menu_icon} style={{maxWidth:'unset'}} className={!show?'hidden':''} alt="" />
                 </button>

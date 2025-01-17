@@ -197,7 +197,7 @@ const Home = () => {
                     </div>
 
                     <div className='section-01-overlay px-5 md:px-0'>
-                        <div id='top-hero' className='h-[100vh] md:h-[55vh] flex flex-col justify-end'>
+                        <div id='top-hero' className='h-[100vh] md:h-[45vh] flex flex-col justify-end'>
                             <Navbar></Navbar>
                             <div className="md:hidden mt-[40%]">
                                 <video muted loop ref={videoRef} src={MainVideo} className='w-[100vw]'></video>
@@ -207,7 +207,7 @@ const Home = () => {
 
                         <div className='hidden md:flex' id='bottom-overlay'>
                             <div className="side-bar left  h-[100vh] w-[5vw] fixed z-[2]"></div>
-                            <div className="middle-bar  h-[45vh]  z-[2]"></div>
+                            <div className="middle-bar  h-[50vh]  z-[2]"></div>
                             <div className="side-bar right   h-[100vh] w-[5vw] fixed"></div>
                             <div className="bottom-bar  h-[5vw] w-[100vw] fixed"></div>
                         </div>

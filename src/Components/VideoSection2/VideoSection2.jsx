@@ -71,10 +71,10 @@ const VideoSection2 = () => {
                         <img className='w-[150px] h-[50px] opacity-[90%]' src={Logo} alt="" />
                     </div>
 
-                    <div id='audio-btn' className={`absolute bottom-[5%] flex justify-center bg-black  z-50  gap-3  items-center px-5 py-3 rounded-full bg-gradient-to-r from-[#811416] to-[#ba2427]`} >
+                    {/* <div id='audio-btn' className={`absolute bottom-[5%] flex justify-center bg-black  z-50  gap-3  items-center px-5 py-3 rounded-full bg-gradient-to-r from-[#811416] to-[#ba2427]`} >
                         <img className='w-[20px] h-[20px]' src={HeadPhone} alt="" />
-                      { /* <p className=' text-white font-Titillium text-[11px] tracking-[0.15rem] min-[1666px]:top-[80%]' >TURN ON AUDIO</p>*/}
-                    </div>
+                     <p className=' text-white font-Titillium text-[11px] tracking-[0.15rem] min-[1666px]:top-[80%]' >TURN ON AUDIO</p>
+                    </div>*/}
 
                 </div>
             </div>

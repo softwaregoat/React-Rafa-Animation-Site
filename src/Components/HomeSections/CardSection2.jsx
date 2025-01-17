@@ -203,7 +203,7 @@ const CardSection = () => {
                 </div>
 
                 <span className='md:hidden font-Titillium text-[20px] border-solid border-b-[1px] border-[#D9D9D9] py-5'>
-                    <p>From local reservations to international travel to setting up track days, our concierge service is here to take care of our members’ every need. </p>
+                    <p className='min-[1360px]:text-[1rem] leading-[1.6rem] text-[1rem] font-light min-[1666px]:text-[1rem]'>From local reservations to international travel to setting up track days, our concierge service is here to take care of our members’ every need. </p>
                 </span>
             </div>
         </>
