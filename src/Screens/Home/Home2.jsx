@@ -193,14 +193,14 @@ const Home = () => {
                 {/* Section 1 */}
                 <div className="section1 section-01">
                     <div className="video-container hidden md:block">
-                        <video muted loop autoPlay playsinline ref={videoRef} id='background-video' src={MainVideo} className='w-[100vw] h-[100vh]'></video>
+                        <video muted loop autoPlay playsInline ref={videoRef}  preload="auto"  id='background-video' src={MainVideo} type='video/webm' className='w-[100vw] h-[100vh]'></video>
                     </div>
 
                     <div className='section-01-overlay px-5 md:px-0'>
                         <div id='top-hero' className='h-[100vh] md:h-[45vh] flex flex-col justify-end'>
                             <Navbar></Navbar>
                             <div className="md:hidden mt-[40%]">
-                                <video muted autoPlay loop  playsinline ref={videoRef} src={MainVideo} className='w-[100vw]'></video>
+                                <video muted autoPlay loop  playsInline   preload="auto"  ref={videoRef} src={MainVideo} className='w-[100vw]' type='video/webm'></video>
                             </div>
                             <MainHeroSection></MainHeroSection>
                         </div>
