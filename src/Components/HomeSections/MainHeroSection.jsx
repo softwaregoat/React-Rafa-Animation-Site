@@ -38,86 +38,10 @@ const MainHeroSection = () => {
             }
         }
 
-        MainParaGraph.current.innerHTML = NewPara;
         // SET INITIAL VALUE
-        gsap.set("#HeroSecTextAppear", {
-            opacity: 0, 
-            x: 50,
-            rotationX: 90, // 3D rotation
-            transformPerspective: 500,
-        });
+        
         // RUN ANIMATION
-        gsap.to('#HeroSecTextAppear', {
-            opacity: 1,
-            x: 0,
-            rotationX: 0,
-            duration: 1,
-            ease: 'easeOut',
-            stagger: 0.04,
-            scrollTrigger: {
-                trigger: "#HeroParaAppear",
-                toggleActions: "restart none none none",
-            }
-        });
-        gsap.fromTo(".HeroSecHeader > h1:nth-child(1)",
-            { x: x_out },
-            {
-                x: "0%",
-                duration: 2,
-                yoyo: true,  // This makes the animation reverse after each cycle
-                ease: "power1.inOut",
-                // delay: 0.2,
-                scrollTrigger: {
-                    trigger: "#HeroParaAppear",
-                    toggleActions: "restart none none none",
-                    start: "top 40%"
-                }
-            });
-
-        gsap.fromTo(".HeroSecHeader > h1:nth-child(2)",
-            { x: x_out },
-            {
-                x: "0%",
-                duration: 2,
-                yoyo: true,  // Reverse after each cycle
-                ease: "power1.inOut",
-                // delay: 0.05,
-                scrollTrigger: {
-                    trigger: "#HeroParaAppear",
-                    toggleActions: "restart none none none",
-                    start: "top 40%",
-                }
-            });
-
-        gsap.fromTo(".HeroSecHeader > h1:nth-child(3)",
-            { x: x_out },
-            {
-                x: "0%",
-                duration: 2,
-                yoyo: true,  // Reverse after each cycle
-                ease: "power1.inOut",
-                delay: 0.1,
-                scrollTrigger: {
-                    trigger: "#HeroParaAppear",
-                    toggleActions: "restart none none none",
-                    start: "top 40%"
-                }
-            });
-
-        gsap.fromTo(".HeroSecHeader > h1:nth-child(4)",
-            { x: x_out },
-            {
-                x: "0%",
-                duration: 2,
-                yoyo: true,  // Reverse after each cycle
-                ease: "power1.inOut",
-                delay: 0.3,
-                scrollTrigger: {
-                    trigger: "#HeroParaAppear",
-                    toggleActions: "restart none none none",
-                    start: "top 40%"
-                }
-            });
+       
 
             
         gsap.set("#ButtonFadeLeft", {
@@ -149,21 +73,7 @@ const MainHeroSection = () => {
         });
 
 
-        // mm.add("(max-width: 768px)", () => {
-        //     // after 2.5 seconds
-        //     gsap.fromTo(".mobile.logo" , 
-        //         {x:-300,},
-        //         {
-        //         x:0,
-        //         duration: 2.5,
-        //         // delay: 2.5,
-        //         scrollTrigger: {
-        //             trigger: "#bottom-overlay",
-        //             toggleActions: "restart none none none",
-        //             snap:0.5
-        //         }
-        //     });
-        // });
+        
         
     })
 
@@ -184,35 +94,9 @@ const MainHeroSection = () => {
                         
                             </div>
                             </div>
-                        {/*}
-                        <span id='' className="w-[80%] ">
-                            <div className="HeroSecHeader">
-                                Where the
-                                <h1 className='text-white'> Where the </h1>
-                                <h1 className='text-white'> Where the </h1>
-                                <h1 className='text-white'> Where the </h1>
-                                <h1 className='text-white'> Where the </h1>
-                            </div>
-                        </span>
-                        <span id='' className="w-[80%] ">
-                            <div className="HeroSecHeader">
-                                finer things and
-                                <h1 className='text-white'>finer things and </h1>
-                                <h1 className='text-white'>finer things and </h1>
-                                <h1 className='text-white'>finer things and </h1>
-                                <h1 className='text-white'>finer things and </h1>
-                            </div>
-                        </span>
-                        <span id='' className="w-[80%] ">
-                            <div className="HeroSecHeader">
-                                faster things meet
-                                <h1 className='text-white'>faster things meet</h1>
-                                <h1 className='text-white'>faster things meet</h1>
-                                <h1 className='text-white'>faster things meet</h1>
-                                <h1 className='text-white'>faster things meet</h1>
-                            </div>
-                        </span>
-                        */}
+                        
+                      
+                        
                     </div>
 
                     {/* Text and Button Section */}

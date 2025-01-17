@@ -132,11 +132,11 @@ const Section6 = () => {
                             </span>
                             <span className='text-white text-6xl w-[50%] overflow-hidden'>
                                 <div className="ClubHouse">
-                                     ClubHouses
-                                    <h1 className='text-white'> ClubHouses</h1>
-                                    <h1 className='text-white'> ClubHouses</h1>
-                                    <h1 className='text-white'> ClubHouses</h1>
-                                    <h1 className='text-white'> ClubHouses</h1>
+                                     Clubhouses
+                                    <h1 className='text-white'> Clubhouses</h1>
+                                    <h1 className='text-white'> Clubhouses</h1>
+                                    <h1 className='text-white'> Clubhouses</h1>
+                                    <h1 className='text-white'> Clubhouses</h1>
                                 </div>
                             </span>
                             <div className='md:hidden my-5 text-start flex justify-start'>

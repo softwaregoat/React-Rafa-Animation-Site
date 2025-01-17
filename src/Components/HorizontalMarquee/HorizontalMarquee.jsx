@@ -32,6 +32,7 @@ const HorizontalMarquee = () => {
                         <p>JEDDAH</p>
                         <p>LONDON</p>
                         <p>DUBAI</p>
+                        <p> </p>
                     </div>
                     <div id='TextMarquee' className='flex overflow-x-hidden text-white text-[11px] justify-center gap-[70px] font-Titillium'>
                         <p>LOS ANGELES</p>
@@ -46,6 +47,7 @@ const HorizontalMarquee = () => {
                         <p>JEDDAH</p>
                         <p>LONDON</p>
                         <p>DUBAI</p>
+                        <p> </p>
                     </div>
                     <div id='TextMarquee' className='flex overflow-x-hidden text-white text-[11px] justify-center gap-[70px] font-Titillium'>
                         <p>LOS ANGELES</p>
@@ -60,6 +62,7 @@ const HorizontalMarquee = () => {
                         <p>JEDDAH</p>
                         <p>LONDON</p>
                         <p>DUBAI</p>
+                        <p> </p>
                     </div>
 
                 </div>

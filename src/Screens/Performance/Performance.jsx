@@ -13,6 +13,7 @@ import Footer from '../../Components/Footer/Footer.jsx';
 // Assets
 import Logo from '../../assets/RAFA-Racing-Mark-Wht 1.png';
 import performance_hero from '../../assets/perfromance.gif';
+import performance_hero_video from '../../Videos/Performance.webm'
 import baseline_1_1 from '../../assets/baseline-1-1.png';
 import train_1_2 from '../../assets/train-1-2.png';
 import baseline_2_1 from '../../assets/baseline-2-1.png';
@@ -36,6 +37,10 @@ const Performance = () => {
         <>
         <div className='about-page container overflow-x-hidden'>
             <section className='performance-hero relative'>
+            
+            <div className="video-container hidden md:block">
+                <video muted loop autoPlay  id='background-video' src={performance_hero_video} className='w-[100vw] h-[100vh]'></video>
+            </div>
                 <div className='bg-transparent absolute w-[100vw] top-0 z-[100]'>
                     <nav className='hidden md:flex text-xl py-5 justify-between px-24 text-white'>
                         <a href="/"><img src={Logo} alt="Rafa" className='h-[30px]'/></a>
@@ -76,7 +81,7 @@ const Performance = () => {
                     </nav>
                 </div>
 
-                <div className='md:flex md:p-10 items-end w-[100vw] h-[100vh] relative'>
+                <div className='md:flex md:p-10 items-end w-[100vw]  absolute bottom-4'>
                     <div className='w-[100%] block md:hidden pt-[100px] pb-[50px] px-5'>
                         {/* HEADING */}
                         <span className='uppercase text-white text-[40px] font-medium overflow-hidden'>

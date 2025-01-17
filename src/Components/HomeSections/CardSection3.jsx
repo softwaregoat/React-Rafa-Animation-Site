@@ -192,7 +192,7 @@ const CardSection = () => {
                         <div className='desktop flex gap-28 min-[1360px]:w-[85%] min-[1440px]:w-[85%]  min-[1666px]:w-[80%]'>
                             <span className='border-solid border-t-[1px] border-[#D9D9D9] flex pt-8 text-[#3d3d3d]'>
                                 <p className='text-2xl h-[37px] border-r-[1px] border-solid border-[#D9D9D9] pr-6'>03</p>
-                                <p className='text-2xl pl-6 h-[10px] text-[#8d8d8d]'>04</p>
+                                <p className='text-2xl pl-6 h-[10px] text-[#8d8d8d]'>03</p>
                             </span>
                             <span className='font-Titillium text-[20px] border-solid border-t-[1px] border-[#D9D9D9] pt-8 pb-24 min-[1666px]:text-[17px] min-[1440px]:pb-24 min-[1666px]:pb-28'>
                                 <p ref={ScrollParaAppear3} id='Para3'>With access to our state-of-the-art racing simulators, club members can hone their skills, join league play and compete in tournaments.</p>
