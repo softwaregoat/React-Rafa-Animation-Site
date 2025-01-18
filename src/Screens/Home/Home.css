@@ -137,6 +137,14 @@ p{
   top: -2.5vw;
   z-index: 100;
 }
+.cropper-text-mobile {
+  margin-left: -17vw;
+  margin-bottom: -5vh;
+  overflow: hidden;
+  position: relative;
+  z-index: 100;
+}
+
 
 /* CARD 2 */
 .ScrollImageHead2 {

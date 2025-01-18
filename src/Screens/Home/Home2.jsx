@@ -16,6 +16,7 @@ import Section6 from '../../Components/HomeSections/Section6.jsx';
 import Footer from '../../Components/Footer/Footer.jsx';
 import EarthAnimation from '../../Components/EarthAnimation/EarthAnimation.jsx';
 import MainVideo from '../../Videos/video1.webm'
+import header1 from '../../assets/svg/headerintro.svg'
 
 import NavigationBlack from '../../Components/Navbar/NavigationBlack.jsx';
 
@@ -199,7 +200,13 @@ const Home = () => {
                     <div className='section-01-overlay px-5 md:px-0'>
                         <div id='top-hero' className='h-[100vh] md:h-[45vh] flex flex-col justify-end'>
                             <Navbar></Navbar>
-                            <div className="md:hidden mt-[40%]">
+                            <div className="md:hidden">
+                                <div class="crop-wrapper">
+                                        <div class="cropper-text-mobile">
+                                            <img src={header1} alt="" />            
+                                        </div>
+                                </div>
+                                                        
                                 <video muted autoPlay loop  playsInline   preload="auto"  ref={videoRef} src={MainVideo} className='w-[100vw]' type='video/webm'></video>
                             </div>
                             <MainHeroSection></MainHeroSection>
