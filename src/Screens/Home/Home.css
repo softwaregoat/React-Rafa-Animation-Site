@@ -617,7 +617,7 @@ section{
   height: fit-content;
   margin-top: auto;
   margin-bottom: auto;
-  padding-top: clamp(0.5rem, 9%, 150px);
+  padding-top: clamp(4.5rem, 9%, 150px);
 }
 
 .section-06 > div, .section-07{

@@ -81,8 +81,8 @@ const Performance = () => {
                     </nav>
                 </div>
 
-                <div className='md:flex md:p-10 items-end w-[100vw]  absolute bottom-4'>
-                    <div className='w-[100%] block md:hidden pt-[100px] pb-[50px] px-5'>
+                <div className='md:flex md:p-10 items-end w-[100vw]  bottom-4'>
+                    <div className='w-[100%] block md:hidden  pb-[50px] px-5 max-[380px]:pt-[40px]'>
                         {/* HEADING */}
                         <span className='uppercase text-white text-[40px] font-medium overflow-hidden'>
                             <div className="first-line">

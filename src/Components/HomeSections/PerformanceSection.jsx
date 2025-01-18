@@ -137,7 +137,7 @@ const PerformanceSection = () => {
 
     return (
         <>
-            <div className="bg-[#0c0c0c] min-h-screen md:px-12 pb-20  py-16" >
+            <div className="bg-[#0c0c0c] min-h-screen md:px-12 pb-20  py-16 max-[390px]:pb-[0px]" >
                 <div className='block md:hidden uppercase text-[#ba2427] text-8xl overflow-hidden opacity-[90%] text-center pb-[1rem]'>
                     <h1 className='text-[#BA2427] leading-[80px]  leading-[3rem] max-[380px]:text-[2.8rem] max-[380px]:leading-[2.4rem]'>Perfor<br/>mance<br/>center</h1>
 
@@ -177,7 +177,7 @@ const PerformanceSection = () => {
 
                         </div>
                         <a href="/performance">
-                        <button className='md:w-[180px] w-full font-Titillium uppercase tracking-[1px] text-[12px] font-bold  bg-gradient-to-r from-[#1E2223] to-[#0C0D0E] text-white rounded-3xl px-10 py-4 mt-[56px] min-[1666px]:mt-[90px]'>LEARN MORE</button>
+                        <button className='md:w-[180px] w-full font-Titillium uppercase tracking-[1px] text-[12px] font-bold  bg-gradient-to-r from-[#1E2223] to-[#0C0D0E] text-white rounded-3xl px-10 py-4 mt-[56px] min-[1666px]:mt-[90px] max-[765px]:mt-[10px] max-[765px]:w-[80vw] '>LEARN MORE</button>
                     </a>
                     </div>
                 </div>
