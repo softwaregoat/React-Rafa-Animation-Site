@@ -433,13 +433,13 @@ const Amenities = () => {
             </section>
 
             <section className='bg-black preferred-pricing'>
-                <div className='md:flex w-[80%] relative'>
+                <div className='md:flex w-[80%] relative overflow: hidden;'>
                     <div className='md:w-[40%]'>
                         <AmenitiesMarquee />
                     </div>
 
                     <div className='block md:hidden pt-5'>
-                        <p ref={ParaGraph1} className='text-white font-Titillium text-[0.8rem]  pl-[5vw]  '>Our relationships in the racing world allow us to offer exclusive access to and preferred rates on the kinds of experiences most racing enthusiasts can only dream of.</p>
+                        <p ref={ParaGraph1} className='text-white font-Titillium text-[0.8rem]  pl-[5vw]  max-[765px]:pt-[4rem] '>Our relationships in the racing world allow us to offer exclusive access to and preferred rates on the kinds of experiences most racing enthusiasts can only dream of.</p>
                     </div>
 
                     <div className='block md:hidden absolute text-[#ba2427] text-7xl overflow-hidden text-right top-0 h-[150px]'>
