@@ -390,19 +390,19 @@ const Amenities = () => {
                         <span className='uppercase text-[#ba2427] leading-[60px] text-[105px] font-medium overflow-hidden opacity-[90%] min-[1666px]:text-[120px]'>
                             <div className="PerformaneCenter first-line">
                                 Performance
-                                <h1 className='text-[#ba2427] max-[1300px]:text-[7rem]'>Performance</h1>
-                                <h1 className='text-[#ba2427] max-[1300px]:text-[7rem]'>Performance</h1>
-                                <h1 className='text-[#ba2427] max-[1300px]:text-[7rem]'>Performance</h1>
-                                <h1 className='text-[#ba2427] max-[1300px]:text-[7rem]'>Performance</h1>
+                                <h1 className='text-[#ba2427] max-1300:text-[7rem]'>Performance</h1>
+                                <h1 className='text-[#ba2427] max-1300:text-[7rem]'>Performance</h1>
+                                <h1 className='text-[#ba2427] max-1300:text-[7rem]'>Performance</h1>
+                                <h1 className='text-[#ba2427] max-1300:text-[7rem]'>Performance</h1>
                             </div>
                         </span>
                         <span className='text-[#ba2427] z-50 text-[105px] font-light uppercase overflow-hidden'>
                             <div className="PerformaneCenter opacity-[90%] min-[1666px]:text-[120px]">
                                 Center
-                                <h1 className='text-[#ba2427] max-[1300px]:text-[7rem]'>Center</h1>
-                                <h1 className='text-[#ba2427] max-[1300px]:text-[7rem]'>Center</h1>
-                                <h1 className='text-[#ba2427] max-[1300px]:text-[7rem]'>Center</h1>
-                                <h1 className='text-[#ba2427] max-[1300px]:text-[7rem]'>Center</h1>
+                                <h1 className='text-[#ba2427] max-1300:text-[7rem]'>Center</h1>
+                                <h1 className='text-[#ba2427] max-1300:text-[7rem]'>Center</h1>
+                                <h1 className='text-[#ba2427] max-1300:text-[7rem]'>Center</h1>
+                                <h1 className='text-[#ba2427] max-1300:text-[7rem]'>Center</h1>
                             </div>
                         </span>
                     </div>
@@ -451,20 +451,20 @@ const Amenities = () => {
                         <span className='text-[#ba2427] leading-[60px] md:text-[105px] font-medium overflow-hidden opacity-[90%]'>
                             <div className="PerformaneCenter first-line">
                                 Preferred
-                                <h1 className='text-[#ba2427] max-[1300px]:text-[7rem]'>Preferred</h1>
-                                <h1 className='text-[#ba2427] max-[1300px]:text-[7rem]'>Preferred</h1>
-                                <h1 className='text-[#ba2427] max-[1300px]:text-[7rem]'>Preferred</h1>
-                                <h1 className='text-[#ba2427] max-[1300px]:text-[7rem]'>Preferred</h1>
+                                <h1 className='text-[#ba2427]  text-[10rem] max-[1300px]:text-[7rem]'>Preferred</h1>
+                                <h1 className='text-[#ba2427]  text-[10rem] max-[1300px]:text-[7rem]'>Preferred</h1>
+                                <h1 className='text-[#ba2427]  text-[10rem] max-[1300px]:text-[7rem]'>Preferred</h1>
+                                <h1 className='text-[#ba2427] text-[10rem] max-[1300px]:text-[7rem]'>Preferred</h1>
                             </div>
                         </span>
 
                         <span className='text-[#ba2427] z-50 text-[105px] font-light overflow-hidden'>
                             <div className="PerformaneCenter leading-[170px]">
                             Pricing
-                                <h1 className='text-[#ba2427] max-[1300px]:text-[7rem]'>Pricing</h1>
-                                <h1 className='text-[#ba2427] max-[1300px]:text-[7rem]'>Pricing</h1>
-                                <h1 className='text-[#ba2427] max-[1300px]:text-[7rem]'>Pricing</h1>
-                                <h1 className='text-[#ba2427] max-[1300px]:text-[7rem]'>Pricing</h1>
+                                <h1 className='text-[#ba2427]  text-[10rem] max-[1300px]:text-[7rem]'>Pricing</h1>
+                                <h1 className='text-[#ba2427]  text-[10rem] max-[1300px]:text-[7rem]'>Pricing</h1>
+                                <h1 className='text-[#ba2427] text-[10rem] max-[1300px]:text-[7rem]'>Pricing</h1>
+                                <h1 className='text-[#ba2427] text-[10rem]  max-[1300px]:text-[7rem]'>Pricing</h1>
                             </div>
                         </span>
 
