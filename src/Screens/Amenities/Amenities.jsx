@@ -451,20 +451,20 @@ const Amenities = () => {
                         <span className='text-[#ba2427] leading-[60px] md:text-[105px] font-medium overflow-hidden opacity-[90%]'>
                             <div className="PerformaneCenter first-line">
                                 Preferred
-                                <h1 className='text-[#ba2427] max-[1300px]:text-[7rem]'>Preferred</h1>
-                                <h1 className='text-[#ba2427] max-[1300px]:text-[7rem]'>Preferred</h1>
-                                <h1 className='text-[#ba2427] max-[1300px]:text-[7rem]'>Preferred</h1>
-                                <h1 className='text-[#ba2427] max-[1300px]:text-[7rem]'>Preferred</h1>
+                                <h1 className='text-[#ba2427] min-[1300px]:text-[7rem]'>Preferred</h1>
+                                <h1 className='text-[#ba2427] min-[1300px]:text-[7rem]'>Preferred</h1>
+                                <h1 className='text-[#ba2427] min-[1300px]:text-[7rem]'>Preferred</h1>
+                                <h1 className='text-[#ba2427] min-[1300px]:text-[7rem]'>Preferred</h1>
                             </div>
                         </span>
 
                         <span className='text-[#ba2427] z-50 text-[105px] font-light overflow-hidden'>
                             <div className="PerformaneCenter leading-[170px]">
                             Pricing
-                                <h1 className='text-[#ba2427] max-[1300px]:text-[7rem]'>Pricing</h1>
-                                <h1 className='text-[#ba2427] max-[1300px]:text-[7rem]'>Pricing</h1>
-                                <h1 className='text-[#ba2427] max-[1300px]:text-[7rem]'>Pricing</h1>
-                                <h1 className='text-[#ba2427] max-[1300px]:text-[7rem]'>Pricing</h1>
+                                <h1 className='text-[#ba2427] min-[1300px]:text-[7rem]'>Pricing</h1>
+                                <h1 className='text-[#ba2427] min-[1300px]:text-[7rem]'>Pricing</h1>
+                                <h1 className='text-[#ba2427] min-[1300px]:text-[7rem]'>Pricing</h1>
+                                <h1 className='text-[#ba2427] min-[1300px]:text-[7rem]'>Pricing</h1>
                             </div>
                         </span>
 
