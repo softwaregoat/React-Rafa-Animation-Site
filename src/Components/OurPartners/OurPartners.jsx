@@ -84,7 +84,10 @@ const OurPartners = () => {
                     </span>
 
                     <p className='md:pl-10 my-10 text-[1rem]'>We proudly partner with the best— from innovative challenger brands to some of the most iconic names in motorsport.</p>
+                    
+                    <a href="/contact">
                     <button className="font-Titillium uppercase tracking-[1px] text-[13px] font-semibold  bg-gradient-to-r from-[#811416] to-[#ba2427] text-white rounded-3xl px-6 py-[15px]">Interested in becoming a partner?</button>
+                     </a>
                 </div>
             </div>
         </>

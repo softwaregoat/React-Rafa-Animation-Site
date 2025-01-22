@@ -149,7 +149,7 @@ const Section4Card = () => {
 
                     {/* DESCRIPTION */}
                     <div>
-                      <p className='font-Titillium text-[0.8rem]  font-normal leading-[1.4rem] ml-8 w-[80%] border-solid border-t-[1px] border-[#d6d6d6] pt-10 text-white min-[1666px]:pt-7 text-[1rem] min-[1440px]:pt-7 min-[1360px]:pt-5 text-[1rem]'>From F1 events- to members-only track days to exclusive tech talks, RAFA Racing Club memberships give you access to the kinds of experiences money can’t buy. </p>
+                      <p className='font-Titillium text-[0.8rem]  font-normal leading-[1.4rem] ml-8 w-[80%] border-solid border-t-[1px] border-[#d6d6d6] pt-10 text-white min-[1666px]:pt-7 text-[1rem] min-[1440px]:pt-7 min-[1360px]:pt-5 text-[1rem]'>From F1 events to members-only track days to exclusive tech talks, RAFA Racing Club memberships give you access to the kinds of experiences money can’t buy. </p>
                     </div>
                 </div>
                 {/* CARD 1 END */}

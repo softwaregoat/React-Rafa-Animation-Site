@@ -84,8 +84,8 @@ const Contact = () => {
 
                         <div className="flex flex-col py-10 ultimate-escape max-[768px]:hidden">
                             <div className="text-white flex family-text">
-                                <p>For brand partnership inquiries: email@emailaddress.com<br/>
-                                For membership inquiries: email@emailaddress.com</p>
+                                <p>For brand partnership inquiries: Info@rafaracing.club<br/>
+                                For membership inquiries: Info@rafaracing.club</p>
                             </div>
                         </div>
 
